@@ -7,17 +7,17 @@ var gulp = require('gulp'),
 
 var gulpPaths = {
   sass:'scss/',
-  cssDist:'dist/css/'
+  cssDist:'../wordpress/wp-content/themes/wpex-elegant/styles/'
 }
 
 gulp.task('sass', function () {
   gulp.src(gulpPaths.sass + '**/*.scss')
     .pipe(sass())
     .pipe(gulp.dest(gulpPaths.cssDist))
-    .pipe(concat(gulpPaths.cssDist + 'main.css'))
+    .pipe(concat(gulpPaths.cssDist + 'cathy-brown.css'))
     .pipe(gulp.dest('./'))
     .pipe(minifyCSS())
-    .pipe(rename('main.min.css'))
+    .pipe(rename('cathy-brown.min.css'))
     .pipe(gulp.dest(gulpPaths.cssDist));
 });
 
