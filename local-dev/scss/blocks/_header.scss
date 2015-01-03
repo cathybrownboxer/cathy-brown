@@ -1,0 +1,17 @@
+@import '_base';
+
+#{$header} {
+  background:$black-full;
+}
+
+#{$header-logo} {
+  img {
+    max-width:253px;
+  }
+}
+
+#{$header-nav} {
+  .dropdown-menu a {
+    color:$grey-light-2;
+  }
+}
