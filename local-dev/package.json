@@ -1,0 +1,28 @@
+{
+  "name": "sass-quick-start",
+  "version": "0.0.0",
+  "description": "Quick start sass to css compilation with grunt or gulp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ttbarnes/sass-quick-start.git"
+  },
+  "author": "Tony Barnes",
+  "bugs": {
+    "url": "https://github.com/ttbarnes/sass-quick-start/issues"
+  },
+  "homepage": "https://github.com/ttbarnes/sass-quick-start",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "gulp": "*",
+    "gulp-sass": "*",
+    "gulp-concat": "*",
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-watch": "*"
+  }
+}
