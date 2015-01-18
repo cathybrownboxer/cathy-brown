@@ -78,6 +78,7 @@ get_header(); ?>
 					/**
 						Blog
 					**/
+					/*
 					$display_count = get_theme_mod('wpex_home_blog_count', '3');
 					$wpex_query = new WP_Query(
 						array(
@@ -118,6 +119,7 @@ get_header(); ?>
 							<?php endforeach; ?>
 						</div><!-- #homepage-portfolio -->
 					<?php } ?>
+					**/
 					<?php wp_reset_postdata(); ?>
 				</article><!-- #post -->
 				<?php comments_template(); ?>
