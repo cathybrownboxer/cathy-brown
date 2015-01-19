@@ -20,9 +20,91 @@ h2 {
   }
 }
 
+a {
+  text-decoration:underline; 
+}
+
 
 .header {
   position:relative;
   text-align:left;
   padding:20px 0;
 }
+
+
+
+
+
+$col-1-w:8.33333333%;
+$col-2-w:16.66666667%;
+$col-3-w:25%;
+$col-4-w:33.33333333%;
+$col-5-w:45%;
+$col-6-w:50%;
+$col-7-w:58.33333333%;
+$col-8-w:66.66666667%;
+$col-9-w:75%;
+$col-10-w:83.33333333%;
+$col-11-w:91.66666667%;
+$col-12-w:100%;
+
+$cols:'
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12';
+
+
+#{$cols} {
+  padding:0;
+  @media (min-width:600px) {
+    float:left;
+  }
+}
+@media (min-width:600px) {
+  .col-1 {
+    width:$col-1-w;
+  }
+  .col-2 {
+    width:$col-2-w;
+  }
+  .col-3 {
+    width:$col-3-w;
+  }
+  .col-4 {
+    width:$col-4-w;
+  }
+  .col-5 {
+    width:$col-5-w;
+  }
+  .col-6 {
+    width:$col-6-w;
+  }
+  .col-7 {
+    width:$col-7-w;
+  }
+  .col-8 {
+    width:$col-8-w;
+  }
+  .col-9 {
+    width:$col-9-w;
+  }
+  .col-10 {
+    width:$col-10-w;
+  }
+  .col-11 {
+    width:$col-11-w;
+  }
+  .col-12 {
+    width:$col-12-w;
+  }
+}
+

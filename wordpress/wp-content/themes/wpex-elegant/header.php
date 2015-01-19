@@ -27,7 +27,7 @@
 
 	<div id="wrap">
 		<div id="header-wrap" class="clr fixed-header">
-			<header id="header" class="site-header clr container" role="banner">
+			<header id="header" class="header site-header clr container" role="banner">
 				<?php
 				// Outputs the site logo
 				// See functions/logo.php
