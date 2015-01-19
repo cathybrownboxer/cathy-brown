@@ -40,6 +40,13 @@ a {
 
 
 
+.header-container,
+.main-container {
+  width:100%;
+  max-width:960px;
+  margin:0 auto;
+}
+
 
 $col-1-w:8.33333333%;
 $col-2-w:16.66666667%;
