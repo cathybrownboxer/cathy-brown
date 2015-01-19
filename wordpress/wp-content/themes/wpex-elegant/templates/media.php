@@ -9,6 +9,9 @@
 
 get_header(); ?>
 
+
+<h2 class="page-title"><?php wp_title(''); ?></h2>
+
 	<div id="primary" class="content-area clr">
 		<div id="content" class="site-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>

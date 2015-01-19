@@ -191,3 +191,6 @@ body.home .home-3-banners .col-4 {
     padding-right: 0; }
     body.home .home-3-banners .col-4:last-child img {
       margin: 64.5px 0; }
+
+h2.page-title {
+  color: #C5C5C5; }
