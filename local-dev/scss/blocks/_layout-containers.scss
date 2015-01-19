@@ -1,8 +1,10 @@
 @import '_base';
 
 body {
+  @include font-default;
   background:$black-1;
   color:$grey-light-1;
+  font-size:13px;
 }
 
 #{$header},
@@ -13,6 +15,7 @@ body {
 }
 
 .row {
+  float:left;
   clear:both;
   width:100%;
 }

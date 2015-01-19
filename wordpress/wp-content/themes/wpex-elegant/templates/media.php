@@ -21,7 +21,7 @@ get_header(); ?>
 						Post Content
 					**/ ?>
 					<?php if ( get_the_content() !== '' ) { ?>
-						<div id="homepage-content" class="entry clr">
+						<div class="page-content" class="entry clr">
 							<?php the_content(); ?>
 						</div><!-- .entry-content -->
 					<?php } ?>

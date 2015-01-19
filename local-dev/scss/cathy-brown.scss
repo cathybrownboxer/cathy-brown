@@ -1,4 +1,7 @@
 
+@mixin font-default {
+  font-family:Helvetica, arial, sans-serif;
+}
 
 @import '_misc';
 @import '_typography';
@@ -13,4 +16,37 @@
 
 h2.page-title {
   color:$grey-light-3;
+}
+
+
+blockquote {
+  @include font-default;
+  clear:both;
+  width:100%;
+  line-height:1.6em;
+  padding:20px 20px 20px 63px;
+  margin-bottom:20px;
+  color:$grey-light-1;
+  background:{
+    color:$black-full;
+    position:20px 20px;
+  }
+  p {
+    color:$grey-light-3;
+    font:{
+      style:italic;
+      weight:bold;
+    }
+    margin-bottom:0;
+  }
+}
+
+//media
+body.page-template-media {
+  .page-content {
+
+    .col-3 {
+      padding-right:15px;
+    }
+  }
 }

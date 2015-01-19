@@ -56,8 +56,10 @@ a {
  }
 
 body {
+  font-family: Helvetica, arial, sans-serif;
   background: #212121;
-  color: #989898; }
+  color: #989898;
+  font-size: 13px; }
 
 .header-container, .main-container {
   width: 100%;
@@ -65,6 +67,7 @@ body {
   margin: 0 auto; }
 
 .row {
+  float: left;
   clear: both;
   width: 100%; }
 
@@ -131,7 +134,6 @@ body {
     color: #808080; }
 
 body.home .home-intro, body.home .home-small-banner {
-  float: left;
   background: #050505;
   margin-bottom: 20px; }
 body.home .home-intro .left, body.home .home-intro .right {
@@ -194,3 +196,22 @@ body.home .home-3-banners .col-4 {
 
 h2.page-title {
   color: #C5C5C5; }
+
+blockquote {
+  font-family: Helvetica, arial, sans-serif;
+  clear: both;
+  width: 100%;
+  line-height: 1.6em;
+  padding: 20px 20px 20px 63px;
+  margin-bottom: 20px;
+  color: #989898;
+  background-color: #050505;
+  background-position: 20px 20px; }
+  blockquote p {
+    color: #C5C5C5;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0; }
+
+body.page-template-media .page-content .col-3 {
+  padding-right: 15px; }
