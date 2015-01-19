@@ -1,3 +1,6 @@
-$header:'.fixed-header';
+$header-wrap:'.header-wrap';
+$header:'.header-container';
 $header-logo:$header + ' .logo';
-$header-nav:$header + ' .navigation';
+$header-nav:$header + ' .header-nav';
+
+$main-container:'.main-container';

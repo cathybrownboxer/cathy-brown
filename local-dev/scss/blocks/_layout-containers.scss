@@ -4,3 +4,10 @@ body {
   background:$black-1;
   color:$grey-light-1;
 }
+
+#{$header},
+#{$main-container} {
+  width:100%;
+  max-width:960px;
+  margin:0 auto;
+}

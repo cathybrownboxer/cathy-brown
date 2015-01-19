@@ -1,16 +1,24 @@
 @import '_base';
 
-#{$header} {
+#{$header-wrap} {
   background:$black-full;
 }
 
+#{$header} {
+  position:relative;
+  text-align:left;
+  padding:20px 0;
+}
+
 #{$header-logo} {
+  float:left;
   img {
     max-width:253px;
   }
 }
 
 #{$header-nav} {
+  float:right;
   .dropdown-menu a {
     color:$grey-light-2;
   }
