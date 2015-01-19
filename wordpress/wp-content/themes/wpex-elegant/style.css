@@ -79,11 +79,6 @@ body.page-template-templatesfullwidth-php .page-thumbnail { margin: 0 0 30px; }
 /* Typography
 ================================================== */
 h1,h2,h3,h4,h5,h6 { font-weight: 600; color: #444; line-height: 1.4em; font-family: 'Helvetica Neue', Helvetica, Arial; }
-.entry h2,
-.entry h3,
-.entry h4,
-.entry h5,
-.entry h6 { margin: 60px 0 30px }
 h1 { font-size: 24px; margin: 0 0 20px; }
 h2 { font-size: 18px }
 h3 { font-size: 16px }
