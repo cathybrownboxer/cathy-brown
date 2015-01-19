@@ -15,7 +15,7 @@ if ( ! function_exists( 'wpex_logo' ) ) {
 		$blog_name = get_bloginfo( 'name' );
 		$home_url = home_url(); ?>
 
-		<div id="logo" class="clr logo">
+		<div id="logo" class="logo">
 			<?php if ( $logo_img ) { ?>
 				<a href="<?php echo $home_url; ?>" title="<?php echo $blog_name; ?>" rel="home"><img src="<?php echo $logo_img; ?>" alt="<?php echo $blog_name; ?>" /></a>
 			<?php } else { ?>

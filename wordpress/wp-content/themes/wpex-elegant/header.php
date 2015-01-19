@@ -33,7 +33,7 @@
 				// See functions/logo.php
 				wpex_logo(); ?>
 				<div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
-				<div id="site-navigation-wrap">
+				<div class="header-nav" id="site-navigation-wrap">
 					<a href="#sidr-main" id="navigation-toggle"><span class="fa fa-bars"></span><?php echo __( 'Menu', 'wpex' ); ?></a>
 					<nav id="site-navigation" class="navigation main-navigation clr" role="navigation">
 						<?php
