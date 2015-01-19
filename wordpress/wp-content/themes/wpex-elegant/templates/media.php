@@ -24,6 +24,10 @@ get_header(); ?>
 						<div class="page-content" class="entry clr">
 							<?php the_content(); ?>
 						</div><!-- .entry-content -->
+
+						 <div style="border:solid 3px red;clear:both;">
+						 	<?php wp_list_pages("child_of=".$page->page_parent."&sort_column=menu_order&depth=3&title_li=");?>
+						 </div>
 					<?php } ?>
 					<?php
 					/**
