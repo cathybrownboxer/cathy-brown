@@ -401,12 +401,13 @@ a#cancel-comment-reply-link:hover { text-decoration: underline; }
 .comment-awaiting-moderation { background: #02AACE; color: #fff; display: inline-block; line-height: 1em; margin-bottom: 20px; margin-top: 10px; padding: 2px 6px; }
 /* Footer
 ================================================== */
-#footer-wrap { background: #222; padding: 50px 0 0; }
+/*#footer-wrap { background: #222; padding: 50px 0 0; }
 #footer-wrap input[type="text"],
 #footer-wrap input[type="search"] { border:  none; }
 #footer-wrap select { width: 100%; }
 #footer-wrap a { color: #bbb; }
 #footer-wrap a:hover { color: #54d5a2; text-decoration: none; }
+
 #footer-widgets .widget-title { color:  #fff; font-size: 1.25em; margin: 0 0 15px; }
 #footer-widgets .widget-title span { background: #222; padding-right: 10px; }
 .footer-widget { margin-bottom: 50px }
@@ -421,6 +422,7 @@ a#cancel-comment-reply-link:hover { text-decoration: underline; }
 #footer-widgets .widget_nav_menu ul > li.menu-item-has-children{ border-bottom: none; }
 #copyright-wrap { background: #111; padding: 20px 0; color: #888; text-align: center; }
 #copyright-wrap a { color: #fff; }
+*/
 /* 404 Page
 ================================================== */
 #error-page { text-align: center; margin-top: 60px; }

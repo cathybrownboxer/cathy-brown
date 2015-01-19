@@ -10,8 +10,8 @@
 
 </div><!-- #main-content -->
 
-	<div id="footer-wrap" class="site-footer clr">
-		<div id="footer" class="clr container">
+	<div id="footer-wrap" class="footer-wrap clr">
+		<div id="footer" class="clr footer-container">
 			<div id="footer-widgets" class="clr">
 				<div class="footer-box span_1_of_3 col col-1">
 					<?php dynamic_sidebar( 'footer-one' ); ?>
