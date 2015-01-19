@@ -11,31 +11,37 @@ body {
 .fixed-header .navigation .dropdown-menu a {
   color: #808080; }
 
-body.home {
-  border: solid 3px red; }
-  body.home .home-intro {
-    float: left;
+body.home .home-intro {
+  float: left;
+  width: 100%;
+  background: #050505; }
+  body.home .home-intro .left, body.home .home-intro .right {
     width: 100%;
-    background: #050505; }
-    body.home .home-intro .left {
-      width: 53%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      padding-right: 0;
-      padding-left: 30px; }
-      @media (min-width: 768px) {
-        body.home .home-intro .left {
-          float: left; } }
+    clear: both; }
     @media (min-width: 768px) {
-      body.home .home-intro .right {
-        float: right;
-        width: 441px; } }
-    body.home .home-intro h2 {
-      color: #FFF;
-      font-size: 15px; }
-    body.home .home-intro img {
-      max-width: 441px;
-      vertical-align: middle; }
+      body.home .home-intro .left, body.home .home-intro .right {
+        clear: none; } }
+  body.home .home-intro .left {
+    padding: 30px; }
+    @media (min-width: 768px) {
+      body.home .home-intro .left {
+        float: left;
+        width: 53%;
+        padding-top: 30px;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 30px; } }
+  @media (min-width: 768px) {
+    body.home .home-intro .right {
+      float: right;
+      width: 441px; } }
+  body.home .home-intro h2 {
+    color: #FFF;
+    font-size: 15px;
+    margin-bottom: 15px; }
+  body.home .home-intro img {
+    width: 100%;
+    vertical-align: middle; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -46,3 +52,8 @@ h2 {
   margin-top: 0;
   margin-top: 0;
   margin-bottom: 20px; }
+
+.header {
+  position: relative;
+  text-align: left;
+  padding: 20px 0; }

@@ -26,14 +26,15 @@
 		</div><!-- #footer -->
 	</div><!-- #footer-wrap -->
 
-	<footer id="copyright-wrap" class="clear">
+	<!--<footer id="copyright-wrap" class="clear">
 		<div id="copyright" role="contentinfo" class="clr">
 			<?php
 			// Displays copyright info
 			// See functions/copyright.php
 			wpex_copyright(); ?>
-		</div><!-- #copyright -->
-	</footer><!-- #footer-wrap -->
+		</div>
+	</footer>
+-->
 </div><!-- #wrap -->
 
 <?php wp_footer(); ?>

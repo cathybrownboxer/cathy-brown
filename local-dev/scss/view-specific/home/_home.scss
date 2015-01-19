@@ -7,16 +7,26 @@ $html-name-space:'body.home';
     float:left;
     width:100%;
     background:$black-full;
+
+    .left,
+    .right { 
+      width:100%;
+      clear:both;
+      @media (min-width:768px) {
+        clear:none;
+      }
+    }
     .left {
+      padding:30px;
       @media (min-width:768px) {
         float:left;
-      }
-      width:53%;
-      padding:{
-        top:30px;
-        bottom:30px;
-        right:0;
-        left:30px;
+        width:53%;
+        padding:{
+          top:30px;
+          bottom:0;
+          right:0;
+          left:30px;
+        }
       }
     }
     .right {
@@ -28,9 +38,10 @@ $html-name-space:'body.home';
     h2 {
       color:$white-full;
       font-size:15px;
+      margin-bottom:15px;
     }
     img {
-      max-width:441px;
+      width:100%;
       vertical-align:middle;
     }
   }
