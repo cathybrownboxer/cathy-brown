@@ -1,0 +1,14 @@
+@import '_base';
+
+#{$right-container} .menu {
+  background:$black-full;
+  padding:20px;
+  a {
+    color:$grey-light-1;
+    text-decoration:none;
+    &:hover,
+    &:focus {
+      text-decoration:underline;
+    }
+  }
+}

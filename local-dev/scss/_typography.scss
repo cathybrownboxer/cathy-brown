@@ -1,3 +1,5 @@
+@import '_base';
+
 h2 {
   margin-top:0;
   margin:{
@@ -7,5 +9,10 @@ h2 {
 }
 
 a {
-  text-decoration:underline; 
+  color:$blue-dark-1;
+  text-decoration:underline;
+  &:hover,
+  &:focus {
+    text-decoration:none;
+  }
 }
