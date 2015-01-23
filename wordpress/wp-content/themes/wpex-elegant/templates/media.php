@@ -22,12 +22,26 @@ get_header(); ?>
 					**/ ?>
 					<?php if ( get_the_content() !== '' ) { ?>
 						<div class="page-content" class="entry clr">
-							<?php the_content(); ?>
-						</div><!-- .entry-content -->
+							<div class="left-container">
+								<?php the_content(); ?>
+							</div>
+							<div class="right-container">
+								<div style="menu">
+									<?php global $post; $thispage = $post->ID; // grabs the current post id from global and then assigns it to thispage ?>
+									<?php $pagekids = get_pages("child_of=".$thispage."&sort_column=menu_order"); // gets a list of page that are sub pages of the current page and assigns then to pagekids ?>
+									<?php if ($pagekids) { // if there are any values stored in pagekids and therefore the current page has subpages ?>
+										<ul>
+											<?php wp_list_pages("depth=1&title_li=&sort_column=menu_order&child_of=".$thispage); // display the sub pages of the current page only ?>
+									    </ul>
+									<?php } else { // if there are no sub pages for the current page ?>
+										<ul>
+											<?php echo wp_list_pages('title_li=&child_of='.$post->post_parent.'&echo=0'); ?>
+									    </ul>
 
-						 <div style="border:solid 3px red;clear:both;">
-						 	<?php wp_list_pages("child_of=".$page->page_parent."&sort_column=menu_order&depth=3&title_li=");?>
-						 </div>
+									<?php } ?>
+								</div>
+							</div>
+						</div><!-- .entry-content -->
 					<?php } ?>
 					<?php
 					/**
