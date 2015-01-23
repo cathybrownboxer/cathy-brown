@@ -20,16 +20,11 @@ $html-name-space:'body.home';
       }
     }
     .left {
-      padding:30px;
+      padding:20px 20px 0 20px;
       @media (min-width:768px) {
         float:left;
         width:53%;
-        padding:{
-          top:20px;
-          bottom:0;
-          right:0;
-          left:20px;
-        }
+        padding-bottom:20px;
       }
     }
     .right {
@@ -52,14 +47,29 @@ $html-name-space:'body.home';
 
   .home-small-banner {
     padding:20px;
+    .col-3 {
+      img {
+        display:block;
+        margin:0 auto 15px auto;
+        @media (min-width:768px) {
+          margin:0;
+        }
+      }
+    }
     .col-8 {
       text-align:center;
-      max-width:60%;
-      padding-top:5px;
+      @media (min-width:768px) {
+        max-width:60%;
+        padding-top:5px;
+      }
     }
     .col-2:last-child {
-      float:right;
-      max-width:104px;
+      display:none;
+      @media (min-width:768px) {
+        display:block;
+        float:right;
+        max-width:104px;
+      }
     }
     img {
       vertical-align:middle;
@@ -72,11 +82,14 @@ $html-name-space:'body.home';
   .home-3-banners {
     .col-4 {
       text-align:center;
-      padding:{
-        top:0;
-        right:20px;
-        bottom:20px;
-        left:20px;
+      padding-bottom:20px;
+      @media (min-width:768px) {
+        padding:{
+          top:0;
+          right:20px;
+          bottom:20px;
+          left:20px;
+        }
       }
       .inner {
         min-height:162px;
@@ -86,13 +99,19 @@ $html-name-space:'body.home';
         margin:0 auto;
       }
       &:first-child {
-        padding-left:0;
+        @media (min-width:768px) {
+          padding-left:0;
+        }
       }
 
       &:last-child {
-        padding-right:0;
-        img {
-          margin:64.5px 0;
+        display:none;
+        @media (min-width:768px) {
+          display:block;
+          padding-right:0;
+          img {
+            margin:64.5px 0;
+          }
         }
       }
 

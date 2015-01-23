@@ -7,12 +7,18 @@
 #{$header} {
   position:relative;
   text-align:left;
-  padding:20px 0;
+  padding:20px 20px 0 20px;
+  @media (min-width:768px) {
+    padding-bottom:20px;
+  }
 }
 
 #{$header-logo} {
   float:left;
+  width:65%;
+
   img {
+    width:100%;
     max-width:253px;
   }
 }
@@ -21,5 +27,13 @@
   float:right;
   .dropdown-menu a {
     color:$grey-light-2;
+    &:hover,
+    &:focus {
+      color:$white-full;
+    }
   }
+}
+
+a#navigation-toggle {
+  line-height:30px;
 }
