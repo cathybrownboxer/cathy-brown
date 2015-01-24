@@ -291,7 +291,8 @@ body.home .home-small-banner {
     margin: 0 auto 15px auto; }
     @media (min-width: 768px) {
       body.home .home-small-banner .col-3 img {
-        margin: 0; } }
+        margin: 0;
+        padding-right: 25px; } }
   body.home .home-small-banner .col-8 {
     text-align: center; }
     @media (min-width: 768px) {
@@ -335,6 +336,11 @@ body.home .home-3-banners .col-4 {
         body.home .home-3-banners .col-4:last-child img {
           margin: 64.5px 0; } }
 
+body.page-id-2 .left-container .col-4 {
+  padding-right: 20px; }
+body.page-id-2 .left-container blockquote + .row {
+  margin-bottom: 15px; }
+
 h2.page-title {
   color: #C5C5C5; }
 
@@ -342,12 +348,12 @@ blockquote {
   font-family: Helvetica, arial, sans-serif;
   clear: both;
   width: 100%;
-  line-height: 1.6em;
-  padding: 20px 20px 20px 63px;
+  line-height: 1.3em;
+  padding: 10px 10px 10px 54px;
   margin-bottom: 20px;
   color: #989898;
   background-color: #050505;
-  background-position: 20px 20px; }
+  background-position: 12px 10px; }
   blockquote p {
     color: #C5C5C5;
     font-style: italic;

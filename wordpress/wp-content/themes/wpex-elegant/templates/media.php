@@ -15,7 +15,7 @@ get_header(); ?>
 	<div id="primary" class="content-area clr">
 		<div id="content" class="site-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
-				<article class="homepage-wrap clr">
+				<article>
 					<?php
 					/**
 						Post Content
