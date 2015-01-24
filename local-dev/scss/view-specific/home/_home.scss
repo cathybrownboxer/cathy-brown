@@ -5,32 +5,38 @@ $html-name-space:'body.home';
 
   .home-intro,
   .home-small-banner {
-    background:$black-full;
-    margin-bottom:20px;
+    margin-bottom:$spacing-main-cont;
   }
 
   .home-intro {
-
+    @media (min-width:768px) {
+      background:$black-full;
+    }
     .left,
     .right { 
       width:100%;
       clear:both;
       @media (min-width:768px) {
         clear:none;
+        padding:$spacing-main-cont;
       }
     }
     .left {
-      padding:20px 20px 0 20px;
+      padding:$spacing-main-cont $side-spacing-mobile 0;
       @media (min-width:768px) {
         float:left;
         width:53%;
-        padding-bottom:20px;
+        padding:$spacing-main-cont-large 0 $spacing-main-cont-large $spacing-main-cont-large;
+        p:last-child {
+          margin-bottom:0;
+        }
       }
     }
     .right {
       @media (min-width:768px) {
         float:right;
         width:441px;
+        padding:0;
       }
     }
     h2 {
@@ -46,19 +52,19 @@ $html-name-space:'body.home';
 
 
   .home-small-banner {
-    padding:20px;
+    padding:$spacing-main-cont;
+    background:$black-full;
     .col-3 {
       img {
         display:block;
-        margin:0 auto 15px auto;
+        margin-bottom:15px;
         @media (min-width:768px) {
-          margin:0;
+          margin-bottom:0;
           padding-right:25px;
         }
       }
     }
     .col-8 {
-      text-align:center;
       @media (min-width:768px) {
         max-width:60%;
         padding-top:5px;
@@ -83,13 +89,13 @@ $html-name-space:'body.home';
   .home-3-banners {
     .col-4 {
       text-align:center;
-      padding-bottom:20px;
+      padding-bottom:$spacing-main-cont;
       @media (min-width:768px) {
         padding:{
           top:0;
-          right:20px;
-          bottom:20px;
-          left:20px;
+          right:$spacing-main-cont;
+          bottom:$spacing-main-cont;
+          left:$spacing-main-cont;
         }
       }
       .inner {

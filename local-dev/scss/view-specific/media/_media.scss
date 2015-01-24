@@ -4,10 +4,10 @@ $html-name-space:'body.page-id-2';
 
   .left-container {
     .col-4 {
-      padding-right:20px;
+      padding-right:$spacing-main-cont;
     }
     blockquote + .row {
-      margin-bottom:15px;
+      margin-bottom:$side-spacing-mobile;
     }
 
   }

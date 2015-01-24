@@ -18,6 +18,10 @@
 
 h2.page-title {
   color:$grey-light-3;
+  padding:0 $side-spacing-mobile;
+  @media (min-width:768px) {
+    padding:0;
+  }
 }
 
 blockquote {
@@ -26,7 +30,7 @@ blockquote {
   width:100%;
   line-height:1.3em;
   padding:10px 10px 10px 54px;
-  margin-bottom:20px;
+  margin-bottom:$spacing-main-cont;
   color:$grey-light-1;
   background:{
     color:$black-full;
@@ -60,8 +64,6 @@ body.page-template-media {
 
 
 
-.page_item_has_children > .children {display: none;} //hides the submenu
 
-.page_item_has_children.current_page_item > .children,
-.page_item_has_children.current_page_ancestor > .children {display: block;} //shows the submenu for the current page or when on its subpages
+
 
