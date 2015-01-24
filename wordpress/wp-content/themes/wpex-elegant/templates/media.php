@@ -37,9 +37,9 @@ get_header(); ?>
 										<ul>
 											<?php echo wp_list_pages('title_li=&child_of='.$post->post_parent.'&echo=0'); ?>
 									    </ul>
-
 									<?php } ?>
 								</div>
+
 							</div>
 						</div><!-- .entry-content -->
 					<?php } ?>

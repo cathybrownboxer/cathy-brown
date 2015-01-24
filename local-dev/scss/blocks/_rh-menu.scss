@@ -12,3 +12,9 @@
     }
   }
 }
+
+
+//http://stackoverflow.com/questions/26545181/how-to-display-sub-child-pages-only-when-on-direct-parent-page
+.page_item_has_children > .children {display: none;} //hides the submenu
+.page_item_has_children.current_page_item > .children,
+.page_item_has_children.current_page_ancestor > .children {display: block;} //shows the submenu for the current page or when on its subpages

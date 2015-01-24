@@ -257,6 +257,12 @@ a#navigation-toggle {
     .right-container .menu a:hover, .right-container .menu a:focus {
       text-decoration: underline; }
 
+.page_item_has_children > .children {
+  display: none; }
+
+.page_item_has_children.current_page_item > .children, .page_item_has_children.current_page_ancestor > .children {
+  display: block; }
+
 body.home .home-intro, body.home .home-small-banner {
   background: #050505;
   margin-bottom: 20px; }
@@ -365,3 +371,9 @@ body.page-template-media .page-content .col-3 {
 
 #sidr-main {
   background: #050505; }
+
+.page_item_has_children > .children {
+  display: none; }
+
+.page_item_has_children.current_page_item > .children, .page_item_has_children.current_page_ancestor > .children {
+  display: block; }
