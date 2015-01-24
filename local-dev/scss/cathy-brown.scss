@@ -64,6 +64,51 @@ body.page-template-media {
 
 
 
+.article-grid {
+
+  .col-3 {
+    float:left;
+    width:$col-6-w;
+    padding:0 0 10px 0;
+    @media (max-width:600px) {
+      &:nth-child(odd) {
+        padding-right:10px;
+        clear:left;
+      }
+      &:nth-child(even) {
+        padding:{
+          right:0 !important;
+          left:0 !important;
+        }
+      }
+    }
+    @media (min-width:600px) {
+      width:$col-3-w;
+      clear:none;
+      padding-right:$side-spacing-mobile;
+      &:last-child {
+        padding-right:0 !important;
+      }
+    }
+  }
+
+  a {
+    display:block;
+    opacity:0.8;
+    @media (min-width:768px) {
+      transition:all 0.2s ease;
+      &:hover,
+      &:focus {
+        opacity:1;
+      }
+    }
+  }
+  img {
+    width:100%;
+    vertical-align:middle;
+  }
+}
+
 
 
 
