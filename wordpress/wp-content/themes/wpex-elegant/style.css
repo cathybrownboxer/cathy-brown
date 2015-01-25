@@ -38,7 +38,7 @@ select { max-width: 100%; }
 /* Body & Main
 ================================================== */
 body { background: #f6f6f6; color: #777; font: 12px/22px 'Open Sans', "Helvetica", Arial; -webkit-font-smoothing: antialiased; }
-#main { padding: 40px 0; }
+/*#main { padding: 40px 0; }*/
 /*.container { margin: 0 auto; width: 980px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }*/
 .left-content { float: left; width: 640px;}
 .sidebar-container { float: right; width: 300px; }

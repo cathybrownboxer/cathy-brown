@@ -11,6 +11,7 @@ $html-name-space:'body.home';
   .home-intro {
     @media (min-width:768px) {
       background:$black-full;
+      overflow-x:hidden;
     }
     .left,
     .right { 
@@ -25,7 +26,7 @@ $html-name-space:'body.home';
       padding:$spacing-main-cont $side-spacing-mobile 0;
       @media (min-width:768px) {
         float:left;
-        width:53%;
+        width:48%;
         padding:$spacing-main-cont-large 0 $spacing-main-cont-large $spacing-main-cont-large;
         p:last-child {
           margin-bottom:0;
@@ -35,7 +36,8 @@ $html-name-space:'body.home';
     .right {
       @media (min-width:768px) {
         float:right;
-        width:441px;
+        width:525px;
+        margin-right:-55px;
         padding:0;
       }
     }
@@ -68,6 +70,8 @@ $html-name-space:'body.home';
       @media (min-width:768px) {
         max-width:60%;
         padding-top:5px;
+        text-align:center;
+        font-size:0.950em;
       }
     }
     .col-2:last-child {
