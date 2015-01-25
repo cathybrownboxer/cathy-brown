@@ -96,6 +96,8 @@ body.page-template-media {
   a {
     display:block;
     opacity:0.8;
+    max-height:193px;
+    overflow-y:hidden;
     @media (min-width:768px) {
       transition:all 0.2s ease;
       &:hover,
@@ -106,6 +108,7 @@ body.page-template-media {
   }
   img {
     width:100%;
+    max-width:146px;
     vertical-align:middle;
   }
 }

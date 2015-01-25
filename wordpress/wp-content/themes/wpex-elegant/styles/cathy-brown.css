@@ -424,7 +424,9 @@ body.page-template-media .page-content .col-3 {
         padding-right: 0 !important; } }
 .article-grid a {
   display: block;
-  opacity: 0.8; }
+  opacity: 0.8;
+  max-height: 193px;
+  overflow-y: hidden; }
   @media (min-width: 768px) {
     .article-grid a {
       transition: all 0.2s ease; }
@@ -432,6 +434,7 @@ body.page-template-media .page-content .col-3 {
         opacity: 1; } }
 .article-grid img {
   width: 100%;
+  max-width: 146px;
   vertical-align: middle; }
 
 .social-icons {
