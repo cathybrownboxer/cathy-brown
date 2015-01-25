@@ -17,6 +17,7 @@
 
 
 h2.page-title {
+  clear:both;
   color:$grey-light-3;
   padding:0 $side-spacing-mobile;
   @media (min-width:768px) {
@@ -106,6 +107,35 @@ body.page-template-media {
   img {
     width:100%;
     vertical-align:middle;
+  }
+}
+
+
+.social-icons {
+  float:left;
+  clear:both;
+  width:100%;
+  margin-bottom:$spacing-main-cont;
+  ul {
+    float:right;
+  }
+  li {
+    display:inline-block;
+    vertical-align:top;
+    margin:0 5px;
+    &:first-child {
+      margin-left:0;
+    }
+    &:last-child {
+      margin-right:0;
+    }
+  }
+  a {
+    display:block;
+    text-indent:-9999px;
+    width:25px;
+    height:25px;
+    background:#CCC;
   }
 }
 

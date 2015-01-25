@@ -10,6 +10,14 @@
 get_header(); ?>
 
 
+<div class="social-icons">
+	<ul>
+		<li class="facebook"><a href="#">Facebook</a></li>
+		<li class="twitter"><a href="#">Twitter</a></li>
+		<li class="linkedin"><a href="#">LinkedIn</a></li>
+		<li class="youtube"><a href="#">YouTube</a></li>
+	</ul>
+</div>
 <h2 class="page-title"><?php wp_title(''); ?></h2>
 
 	<div id="primary" class="content-area clr">
