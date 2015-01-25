@@ -447,3 +447,14 @@ body.page-template-media .page-content .col-3 {
     width: 25px;
     height: 25px;
     background: #CCC; }
+
+.foogallery-default.border-style-rounded a {
+  border-radius: 0;
+  width: 33.33333%;
+  margin: 0 !important;
+  padding: 5px;
+  background-color: transparent !important; }
+  .foogallery-default.border-style-rounded a:nth-child(1n) {
+    padding-left: 0; }
+  .foogallery-default.border-style-rounded a:nth-child(3n) {
+    padding-right: 5px; }
