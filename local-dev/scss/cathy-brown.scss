@@ -146,13 +146,13 @@ body.page-template-media {
     border-radius:0;
     width:$col-4-w;
     margin:0 !important;
-    padding:5px;
+    padding:10px;
     background-color:transparent !important;
     &:nth-child(1n) {
       padding-left:0;
     }
     &:nth-child(3n) {
-      padding-right:5px;
+      padding-right:0;
     }
   }
 }
