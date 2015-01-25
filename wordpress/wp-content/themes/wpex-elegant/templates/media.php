@@ -34,7 +34,9 @@ get_header(); ?>
 								<?php the_content(); ?>
 							</div>
 							<div class="right-container">
+
 								<div class="menu">
+									<?php echo '<h3><a href="'.get_permalink($post->post_parent).'">'.get_the_title($post->post_parent).'</a></h3>'; ?>
 									<?php global $post; $thispage = $post->ID; // grabs the current post id from global and then assigns it to thispage ?>
 									<?php $pagekids = get_pages("child_of=".$thispage."&sort_column=menu_order"); // gets a list of page that are sub pages of the current page and assigns then to pagekids ?>
 									<?php if ($pagekids) { // if there are any values stored in pagekids and therefore the current page has subpages ?>
