@@ -89,7 +89,7 @@ h1 a, h2 a, h3 a, h4 a { color: #000; }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover { color: #54d5a2; text-decoration: none; }
 p.lead { color: #777; font-size: 21px; line-height: 27px; }
 em { font-style: italic }
-strong { font-weight: 600; color: #000; }
+strong { font-weight: bold; }
 small { font-size: 80% }
 hr { border: solid #eee; border-width: 1px 0 0; clear: both; height: 0; margin: 40px 0; }
 a { outline: 0 }
@@ -434,8 +434,10 @@ a#cancel-comment-reply-link:hover { text-decoration: underline; }
 .bypostauthor { }
 /*aligns*/
 .aligncenter { display: block; margin: 0 auto; }
-.alignright { float: right; margin: 0 0 10px 20px; }
+
+/*.alignright { float: right; margin: 0 0 10px 20px; }
 .alignleft { float: left; margin: 0 20px 10px 0; }
+*/
 /*floats*/
 .floatleft { float: left }
 .floatright { float: right }

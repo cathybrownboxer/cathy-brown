@@ -372,6 +372,13 @@ body.page-id-2 .left-container .col-4 {
 body.page-id-2 .left-container blockquote + .row {
   margin-bottom: 15px; }
 
+img {
+  display: block;
+  margin: 0 auto 20px auto; }
+  @media (min-width: 768px) {
+    img {
+      margin: 0; } }
+
 h2.page-title {
   clear: both;
   color: #C5C5C5;
@@ -385,7 +392,7 @@ blockquote {
   clear: both;
   width: 100%;
   line-height: 1.3em;
-  padding: 10px 10px 10px 54px;
+  padding: 10px 10px 10px 46px;
   margin-bottom: 20px;
   color: #989898;
   background-color: #050505;
@@ -469,3 +476,11 @@ body.page-template-media .page-content .col-3 {
     padding-left: 0; }
   .foogallery-default.border-style-rounded a:nth-child(3n) {
     padding-right: 0; }
+
+@media (min-width: 768px) {
+  .alignleft {
+    float: left; } }
+
+@media (min-width: 768px) {
+  .alignright {
+    float: right; } }

@@ -16,6 +16,14 @@
 @import 'view-specific/media/_media';
 
 
+img {
+  display:block;
+  margin:0 auto 20px auto;
+  @media (min-width:768px) {
+    margin:0;
+  }
+}
+
 h2.page-title {
   clear:both;
   color:$grey-light-3;
@@ -30,7 +38,7 @@ blockquote {
   clear:both;
   width:100%;
   line-height:1.3em;
-  padding:10px 10px 10px 54px;
+  padding:10px 10px 10px 46px;
   margin-bottom:$spacing-main-cont;
   color:$grey-light-1;
   background:{
@@ -162,3 +170,15 @@ body.page-template-media {
 
 
 
+
+.alignleft {
+  @media (min-width:768px) {
+    float:left;
+  }
+}
+
+.alignright {
+  @media (min-width:768px) {
+    float:right;
+  }
+}
