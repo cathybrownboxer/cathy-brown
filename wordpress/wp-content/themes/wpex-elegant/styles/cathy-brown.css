@@ -420,7 +420,17 @@ body.page-template-media .page-content {
     */ }
 
 #sidr-main {
-  background: #050505; }
+  background: #050505;
+  padding: 45px 15px 15px; }
+  #sidr-main .sidr-class-toggle-sidr-close:before {
+    top: 15px;
+    left: 15px; }
+  #sidr-main ul a {
+    text-decoration: none;
+    border-bottom-color: #242424;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 14px; }
 
 .article-grid .col-3 {
   float: left;
