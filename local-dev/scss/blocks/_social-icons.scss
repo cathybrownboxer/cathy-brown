@@ -1,0 +1,53 @@
+@import '_base';
+
+#{$social-icons} {
+  display:none;
+  @media (min-width:768px) {
+    display:block;
+    float:left;
+    clear:both;
+    width:100%;
+    margin-bottom:$spacing-main-cont;
+    padding-right:$side-spacing-mobile;
+  }
+  ul {
+    float:right;
+  }
+  li {
+    display:inline-block;
+    vertical-align:top;
+    margin:0 2.5px;
+    &:first-child {
+      margin-left:0;
+    }
+    &:last-child {
+      margin-right:0;
+    }
+    &.facebook a {
+      color:#3B5998;
+    }
+    &.twitter a {
+      color:#00abf1;
+    }
+    &.linkedin a {
+      color:#0083be;
+    }
+    &.youtube a {
+      color:#cf2200;
+    }
+  }
+  a {
+    display:block;
+    width:25px;
+    height:25px;
+    opacity:0.25;
+    font-size:22px;
+    @media (min-width:768px) {
+      transition:all 0.2s ease;
+      &:hover,
+      &:focus {
+        opacity:1;
+      }
+    }
+  }
+}

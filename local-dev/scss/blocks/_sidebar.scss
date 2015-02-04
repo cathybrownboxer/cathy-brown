@@ -1,0 +1,20 @@
+@import '_base';
+
+#{$sidebar} {
+  background:$black-full;
+  padding:45px $side-spacing-mobile $side-spacing-mobile;
+
+  .sidr-class-toggle-sidr-close:before {
+    top:$side-spacing-mobile;
+    left:$side-spacing-mobile;
+  }
+  ul a {
+    text-decoration:none;
+    border-bottom-color:#242424;
+    padding:10px 0;
+    font:{
+      weight:500;
+      size:14px;
+    }
+  }
+}
