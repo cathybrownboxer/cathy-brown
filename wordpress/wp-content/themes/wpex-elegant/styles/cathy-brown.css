@@ -412,8 +412,12 @@ blockquote {
     font-weight: bold;
     margin-bottom: 0; }
 
-body.page-template-media .page-content .col-3 {
-  padding-right: 15px; }
+body.page-template-media .page-content {
+  /*
+    .col-3 {
+      padding-right:15px;
+    }
+    */ }
 
 #sidr-main {
   background: #050505; }
@@ -421,36 +425,37 @@ body.page-template-media .page-content .col-3 {
 .article-grid .col-3 {
   float: left;
   width: 50%;
-  padding: 0 0 10px 0; }
-  @media (max-width: 600px) {
-    .article-grid .col-3:nth-child(odd) {
-      padding-right: 10px;
-      clear: left; }
-
-    .article-grid .col-3:nth-child(even) {
-      padding-right: 0 !important;
-      padding-left: 0 !important; }
- }
-  @media (min-width: 600px) {
+  padding: 5px; }
+  .article-grid .col-3:nth-child(odd) {
+    clear: left; }
+    @media (min-width: 768px) {
+      .article-grid .col-3:nth-child(odd) {
+        clear: none; } }
+  @media (min-width: 768px) {
     .article-grid .col-3 {
       width: 25%;
       clear: none;
-      padding-right: 15px; }
+      padding: 7.5px; }
+      .article-grid .col-3:first-child {
+        padding-left: 0; }
       .article-grid .col-3:last-child {
-        padding-right: 0 !important; } }
+        padding-right: 0; } }
 .article-grid a {
   display: block;
   opacity: 0.8;
-  max-height: 193px;
+  max-height: 150px;
   overflow-y: hidden; }
+  @media (min-width: 50px) {
+    .article-grid a {
+      max-height: 180px; } }
   @media (min-width: 768px) {
     .article-grid a {
+      max-height: 193px;
       transition: all 0.2s ease; }
       .article-grid a:hover, .article-grid a:focus {
         opacity: 1; } }
 .article-grid img {
   width: 100%;
-  max-width: 146px;
   vertical-align: middle; }
 
 .social-icons {

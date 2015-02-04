@@ -59,9 +59,11 @@ blockquote {
 //media
 body.page-template-media {
   #{$page-content} {
+    /*
     .col-3 {
       padding-right:15px;
     }
+    */
   }
 }
 
@@ -78,25 +80,22 @@ body.page-template-media {
   .col-3 {
     float:left;
     width:$col-6-w;
-    padding:0 0 10px 0;
-    @media (max-width:600px) {
-      &:nth-child(odd) {
-        padding-right:10px;
-        clear:left;
-      }
-      &:nth-child(even) {
-        padding:{
-          right:0 !important;
-          left:0 !important;
-        }
+    padding:$side-spacing-mobile-small;
+    &:nth-child(odd) {
+      clear:left;
+      @media (min-width:768px) {
+        clear:none;
       }
     }
-    @media (min-width:600px) {
+    @media (min-width:768px) {
       width:$col-3-w;
       clear:none;
-      padding-right:$side-spacing-mobile;
+      padding:$side-spacing-mobile / 2;
+      &:first-child {
+        padding-left:0;
+      }
       &:last-child {
-        padding-right:0 !important;
+        padding-right:0;
       }
     }
   }
@@ -104,9 +103,13 @@ body.page-template-media {
   a {
     display:block;
     opacity:0.8;
-    max-height:193px;
+    max-height:150px;
     overflow-y:hidden;
+    @media (min-width:50px) {
+      max-height:180px;
+    }
     @media (min-width:768px) {
+      max-height:193px;
       transition:all 0.2s ease;
       &:hover,
       &:focus {
@@ -116,7 +119,6 @@ body.page-template-media {
   }
   img {
     width:100%;
-    max-width:146px;
     vertical-align:middle;
   }
 }
