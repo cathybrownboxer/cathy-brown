@@ -150,20 +150,40 @@ body.page-template-media {
   li {
     display:inline-block;
     vertical-align:top;
-    margin:0 5px;
+    margin:0 2.5px;
     &:first-child {
       margin-left:0;
     }
     &:last-child {
       margin-right:0;
     }
+    &.facebook a {
+      color:#3B5998;
+    }
+    &.twitter a {
+      color:#00abf1;
+    }
+    &.linkedin a {
+      color:#0083be;
+    }
+    &.youtube a {
+      color:#cf2200;
+    }
   }
   a {
     display:block;
-    text-indent:-9999px;
     width:25px;
     height:25px;
-    background:#CCC;
+    opacity:0.5;
+    font-size:22px;
+    @media (min-width:768px) {
+      transition:all 0.2s ease;
+      opacity:0.25;
+      &:hover,
+      &:focus {
+        opacity:1;
+      }
+    }
   }
 }
 

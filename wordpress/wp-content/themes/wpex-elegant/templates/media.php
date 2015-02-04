@@ -9,13 +9,20 @@
 
 get_header(); ?>
 
-
 <div class="social-icons">
 	<ul>
-		<li class="facebook"><a href="#">Facebook</a></li>
-		<li class="twitter"><a href="#">Twitter</a></li>
-		<li class="linkedin"><a href="#">LinkedIn</a></li>
-		<li class="youtube"><a href="#">YouTube</a></li>
+		<li class="facebook"><a href="#" target="_blank">
+			<i class="fa fa-facebook-square fa-lg"></i>
+		</a></li>
+		<li class="twitter"><a href="#" target="_blank">
+			<i class="fa fa-twitter-square fa-lg"></i>
+		</a></li>
+		<li class="linkedin"><a href="#" target="_blank">
+			<i class="fa fa-linkedin-square fa-lg"></i>
+		</a></li>
+		<li class="youtube"><a href="#" target="_blank">
+			<i class="fa fa-youtube-square fa-lg"></i>
+		</a></li>
 	</ul>
 </div>
 <h2 class="page-title"><?php wp_title(''); ?></h2>

@@ -478,17 +478,31 @@ body.page-template-media .page-content {
   .social-icons li {
     display: inline-block;
     vertical-align: top;
-    margin: 0 5px; }
+    margin: 0 2.5px; }
     .social-icons li:first-child {
       margin-left: 0; }
     .social-icons li:last-child {
       margin-right: 0; }
+    .social-icons li.facebook a {
+      color: #3B5998; }
+    .social-icons li.twitter a {
+      color: #00abf1; }
+    .social-icons li.linkedin a {
+      color: #0083be; }
+    .social-icons li.youtube a {
+      color: #cf2200; }
   .social-icons a {
     display: block;
-    text-indent: -9999px;
     width: 25px;
     height: 25px;
-    background: #CCC; }
+    opacity: 0.5;
+    font-size: 22px; }
+    @media (min-width: 768px) {
+      .social-icons a {
+        transition: all 0.2s ease;
+        opacity: 0.25; }
+        .social-icons a:hover, .social-icons a:focus {
+          opacity: 1; } }
 
 .foogallery-default.border-style-rounded a {
   border-radius: 0;
