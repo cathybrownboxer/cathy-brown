@@ -1,0 +1,21 @@
+$html-name-space:'body.page-id-71';
+
+#{$html-name-space} {
+
+  #{$left-container} {
+    width:100%;
+  }
+  #{$right-container} {
+    display:none;
+  }
+
+  #{$page-content} {
+    .col-9 {
+      padding-right:30px;
+    }
+    .col-3 {
+      padding-right:0;
+    }
+  }
+
+}

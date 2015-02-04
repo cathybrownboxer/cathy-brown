@@ -367,6 +367,15 @@ body.home .home-3-banners .col-4 {
         body.home .home-3-banners .col-4:last-child img {
           margin: 64.5px 0; } }
 
+body.page-id-71 .left-container {
+  width: 100%; }
+body.page-id-71 .right-container {
+  display: none; }
+body.page-id-71 .page-content .col-9 {
+  padding-right: 30px; }
+body.page-id-71 .page-content .col-3 {
+  padding-right: 0; }
+
 body.page-id-2 .left-container .col-4 {
   padding-right: 20px; }
 body.page-id-2 .left-container blockquote + .row {
@@ -396,7 +405,7 @@ blockquote {
   margin-bottom: 20px;
   color: #989898;
   background-color: #050505;
-  background-position: 12px 10px; }
+  background-position: 10px 8px; }
   blockquote p {
     color: #C5C5C5;
     font-style: italic;
