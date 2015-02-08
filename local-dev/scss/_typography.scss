@@ -1,5 +1,16 @@
 @import '_base';
 
+::-moz-selection {
+  background:$yellow-1;
+  color:#000;
+  text-shadow:none;
+}
+::selection {
+  background:$yellow-1;
+  color:#000;
+  text-shadow:none;
+}
+
 h2 {
   margin-top:0;
   margin:{
