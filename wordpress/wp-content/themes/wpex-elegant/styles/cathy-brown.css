@@ -490,6 +490,25 @@ a#navigation-toggle {
   .foogallery-default.border-style-rounded a:nth-child(3n) {
     padding-right: 0; }
 
+.fbx-light .fbx-inner {
+  border: 0 none;
+  background: #050505;
+  box-shadow: 0 2px 29px #000; }
+.fbx-light .fbx-count {
+  display: none; }
+
+.fbx-modal.fbx-phone {
+  border-color: #050505 !important; }
+  .fbx-modal.fbx-phone .fbx-prev, .fbx-modal.fbx-phone .fbx-next, .fbx-modal.fbx-phone .fbx-close {
+    background: #050505 !important; }
+
+.fbx-rounded.fbx-tablet .fbx-prev, .fbx-rounded.fbx-tablet .fbx-next, .fbx-rounded.fbx-desktop .fbx-prev, .fbx-rounded.fbx-desktop .fbx-next {
+  background: none; }
+  .fbx-rounded.fbx-tablet .fbx-prev::before, .fbx-rounded.fbx-tablet .fbx-next::before, .fbx-rounded.fbx-desktop .fbx-prev::before, .fbx-rounded.fbx-desktop .fbx-next::before {
+    color: #C5C5C5; }
+.fbx-rounded.fbx-tablet .fbx-close, .fbx-rounded.fbx-desktop .fbx-close {
+  display: none; }
+
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
   padding: 0; }
   @media (min-width: 600px) {

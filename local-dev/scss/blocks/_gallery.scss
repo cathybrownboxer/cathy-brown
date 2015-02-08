@@ -15,3 +15,39 @@
     }
   }
 }
+
+
+//modal
+.fbx-light {
+  .fbx-inner {
+    border:0 none;
+    background:$black-full;
+    box-shadow:0 2px 29px #000;
+  }
+  .fbx-count {
+    display:none;
+  }
+}
+
+.fbx-modal.fbx-phone {
+  border-color:$black-full !important;
+  .fbx-prev, 
+  .fbx-next,
+  .fbx-close {
+    background:$black-full !important;
+  }
+}
+
+.fbx-rounded.fbx-tablet,
+.fbx-rounded.fbx-desktop {
+  .fbx-prev, 
+  .fbx-next {
+    background:none;
+    &::before {
+      color:$grey-light-3;
+    }
+  } 
+  .fbx-close {
+    display:none;
+  }
+}
