@@ -1,22 +1,31 @@
 $html-name-space:'body.page-id-202';
 
 #{$html-name-space} {
+
 /*
-  #{$left-container} {
-    width:100%;
-  }
-  #{$right-container} {
-    display:none;
-  }
-*/
-/*
-  #{$comments} {
-    display:none;
+  #{$page-content} {
+
   }
   */
 
-  #{$page-content} {
+  .blog-posts {
 
+    .post {
+      border:solid 2px darkred;
+      margin-bottom:100px;
+
+    }
+    h3 a {
+      color:$grey-light-3;
+      text-decoration:none;
+    }
+    
+    .image-wrap {
+
+    }
+    .post-content-text {
+
+    }
   }
 
 }

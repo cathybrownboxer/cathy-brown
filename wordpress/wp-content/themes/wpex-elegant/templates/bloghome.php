@@ -87,29 +87,38 @@ get_header(); ?>
 						)
 					);
 					if ( $wpex_query->posts ) { ?>
-						<div id="homepage-blog" class="clr">
+						<div class="blog-posts">
 							<?php $wpex_count=0; ?>
 							<?php foreach( $wpex_query->posts as $post ) : setup_postdata( $post ); ?>
 								<?php $wpex_count++; ?>
-									<article class="recent-blog-entry clr col span_1_of_3 col-<?php echo $wpex_count; ?>">
+									<article class="post">
+										<header>
+											<h3><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( the_title_attribute( 'echo=0' ) ); ?>"><?php the_title(); ?></a></h3>
+											
+											<?php
+											// Display post meta details
+											/**
+											wpex_post_meta();
+											**/
+											?>
+											<span class="date">
+												<?php echo get_the_date(); ?>
+											</span>
+										</header>
 										<?php
 										// Display post thumbnail
 										if ( has_post_thumbnail() ) { ?>
-											<div class="recent-blog-entry-thumbnail">
+											<div class="image-wrap">
 												<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( the_title_attribute( 'echo=0' ) ); ?>">
 													<img src="<?php echo wpex_get_featured_img_url(); ?>" alt="<?php echo esc_attr( the_title_attribute( 'echo=0' ) ); ?>" />
 												</a>
 											</div><!-- .recent-blog-entry-thumbnail -->
 										<?php } ?>
-										<header>
-											<h3 class="recent-blog-entry-title"><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( the_title_attribute( 'echo=0' ) ); ?>"><?php the_title(); ?></a></h3>
-											<?php
-											// Display post meta details
-											wpex_post_meta() ;?>
-										</header>
-										<div class="recent-blog-entry-content entry clr">
-											<?php wpex_excerpt( 18, false ); ?>
+										<div class="post-content-text">
+											<?php wpex_excerpt( 50, false ); ?>
 										</div><!-- .recent-blog-entry-content -->
+
+										<a class="btn btn-green" href="<?php the_permalink(); ?>">Read more</a>
 									</article><!-- .recent-blog -->
 								<?php if ( $wpex_count == '3' ) { ?>
 									<?php $wpex_count=0; ?>
