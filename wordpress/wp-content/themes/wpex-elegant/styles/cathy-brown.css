@@ -637,6 +637,62 @@ blockquote {
     font-weight: bold;
     margin-bottom: 0; }
 
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  padding: 0; }
+  @media (min-width: 600px) {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+      float: left; } }
+
+@media (min-width: 600px) {
+  .col-1 {
+    width: 8.33333%; }
+
+  .col-2 {
+    width: 16.66667%; }
+
+  .col-3 {
+    width: 25%; }
+
+  .col-4 {
+    width: 33.33333%; }
+
+  .col-5 {
+    width: 45%; }
+
+  .col-6 {
+    width: 50%; }
+
+  .col-7 {
+    width: 58.33333%; }
+
+  .col-8 {
+    width: 66.66667%; }
+
+  .col-9 {
+    width: 75%; }
+
+  .col-10 {
+    width: 83.33333%; }
+
+  .col-11 {
+    width: 91.66667%; }
+
+  .col-12 {
+    width: 100%; }
+ }
+
+.btn {
+  color: #C5C5C5;
+  font-weight: bold;
+  text-decoration: none; }
+
+.btn-sm {
+  padding: 9px;
+  font-size: 12px; }
+
+.btn-green {
+  background: #2C4721; }
+
 body.home .home-intro, body.home .home-small-banner {
   margin-bottom: 20px; }
 @media (min-width: 768px) {
@@ -732,8 +788,9 @@ body.page-id-202 {
   }
   */ }
   body.page-id-202 .blog-posts .post {
-    border: solid 2px darkred;
-    margin-bottom: 100px; }
+    border-bottom: solid 3px #252525;
+    padding-bottom: 30px;
+    margin-bottom: 30px; }
   body.page-id-202 .blog-posts h3 {
     font-size: 18px; }
     body.page-id-202 .blog-posts h3 a {
@@ -747,6 +804,8 @@ body.page-id-202 {
     margin: 25px 0; }
   body.page-id-202 .blog-posts img {
     width: 100%; }
+  body.page-id-202 .blog-posts .post-content-text {
+    margin-bottom: 25px; }
 
 body.page-id-71 .left-container {
   width: 100%; }

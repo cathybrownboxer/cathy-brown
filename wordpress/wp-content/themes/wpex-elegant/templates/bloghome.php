@@ -139,7 +139,7 @@ get_header(); ?>
 												<?php wpex_excerpt( 50, false ); ?>
 											</div><!-- .recent-blog-entry-content -->
 
-											<a class="btn btn-green" href="<?php the_permalink(); ?>">Read more</a>
+											<a class="btn btn-sm btn-green" href="<?php the_permalink(); ?>">Read more</a>
 										</article><!-- .recent-blog -->
 									<?php if ( $wpex_count == '3' ) { ?>
 										<?php $wpex_count=0; ?>

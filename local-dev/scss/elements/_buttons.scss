@@ -1,0 +1,16 @@
+@import '_base';
+
+.btn {
+  color:$grey-light-3;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.btn-sm {
+  padding:9px;
+  font-size:12px;
+}
+
+.btn-green {
+  background:$green-1;
+}
