@@ -8,7 +8,7 @@
  */
 
 if ( is_active_sidebar( 'sidebar' ) ) : ?>
-	<aside id="secondary" class="sidebar-container" role="complementary">
+	<aside id="secondary" class="menu" role="complementary">
 		<div class="sidebar-inner">
 			<div class="widget-area">
 				<?php dynamic_sidebar( 'sidebar' ); ?>

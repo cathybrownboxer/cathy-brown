@@ -13,8 +13,8 @@ register_sidebar(array(
 	'description'	=> __( 'Widgets in this area are used in the sidebar region.', 'wpex' ),
 	'before_widget'	=> '<div class="sidebar-widget %2$s clr">',
 	'after_widget'	=> '</div>',
-	'before_title'	=> '<h5 class="widget-title"><span>',
-	'after_title'	=> '<span></h5>',
+	'before_title'	=> '<h3 class="widget-title"><span>',
+	'after_title'	=> '<span></h3>',
 ));
 // Footer 1
 register_sidebar(array(
