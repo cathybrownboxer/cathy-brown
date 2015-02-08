@@ -734,9 +734,19 @@ body.page-id-202 {
   body.page-id-202 .blog-posts .post {
     border: solid 2px darkred;
     margin-bottom: 100px; }
-  body.page-id-202 .blog-posts h3 a {
-    color: #C5C5C5;
-    text-decoration: none; }
+  body.page-id-202 .blog-posts h3 {
+    font-size: 18px; }
+    body.page-id-202 .blog-posts h3 a {
+      color: #C5C5C5;
+      text-decoration: none; }
+  body.page-id-202 .blog-posts .date {
+    color: #515151; }
+  body.page-id-202 .blog-posts .image-wrap {
+    max-height: 260px;
+    overflow: hidden;
+    margin: 25px 0; }
+  body.page-id-202 .blog-posts img {
+    width: 100%; }
 
 body.page-id-71 .left-container {
   width: 100%; }

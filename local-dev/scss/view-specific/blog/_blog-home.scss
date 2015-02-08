@@ -15,12 +15,24 @@ $html-name-space:'body.page-id-202';
       margin-bottom:100px;
 
     }
-    h3 a {
-      color:$grey-light-3;
-      text-decoration:none;
+    h3 {
+      font-size:18px;
+      a {
+        color:$grey-light-3;
+        text-decoration:none;
+      }
     }
-    
+    .date {
+      color:$grey-dark-1;
+    }
+
     .image-wrap {
+      max-height:260px;
+      overflow:hidden;
+      margin:25px 0;
+    }
+    img {
+      width:100%;
 
     }
     .post-content-text {
