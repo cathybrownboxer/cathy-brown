@@ -1,16 +1,18 @@
 #{$single-post} {
 
-  ul,
-  dl {
-    padding-left:15px;
-    padding-bottom:$spacing-main-cont;
-  }
-  ul,
-  dl {
-    list-style-type:disc;
-  }
-  ol {
-    list-style-type:decimal;
+  #{$left-container} {
+    ul,
+    dl {
+      padding-left:15px;
+      padding-bottom:$spacing-main-cont;
+    }
+    ul,
+    dl {
+      list-style-type:disc;
+    }
+    ol {
+      list-style-type:decimal;
+    }
   }
 
 }

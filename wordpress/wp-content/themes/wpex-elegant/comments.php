@@ -42,6 +42,6 @@ if ( !comments_open() && get_comment_pages_count() == 0 ) return; ?>
 		<?php } ?>
 	<?php } // have_comments() ?>
 	<?php comment_form( array(
-		'title_reply'	=> '<div class="heading"><span>'. __('Leave a Comment','wpex') .'</span></div>',
+		'title_reply'	=> '<div class="heading"><span>'. __('Leave a comment','wpex') .'</span></div>',
 	)); ?>
 </div><!-- #comments -->

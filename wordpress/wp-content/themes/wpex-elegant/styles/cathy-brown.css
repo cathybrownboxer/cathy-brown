@@ -681,6 +681,54 @@ blockquote {
     width: 100%; }
  }
 
+input, textarea {
+  background: #050505;
+  color: #606060; }
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  padding: 0; }
+  @media (min-width: 600px) {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+      float: left; } }
+
+@media (min-width: 600px) {
+  .col-1 {
+    width: 8.33333%; }
+
+  .col-2 {
+    width: 16.66667%; }
+
+  .col-3 {
+    width: 25%; }
+
+  .col-4 {
+    width: 33.33333%; }
+
+  .col-5 {
+    width: 45%; }
+
+  .col-6 {
+    width: 50%; }
+
+  .col-7 {
+    width: 58.33333%; }
+
+  .col-8 {
+    width: 66.66667%; }
+
+  .col-9 {
+    width: 75%; }
+
+  .col-10 {
+    width: 83.33333%; }
+
+  .col-11 {
+    width: 91.66667%; }
+
+  .col-12 {
+    width: 100%; }
+ }
+
 .btn {
   color: #C5C5C5;
   font-weight: bold;
@@ -914,12 +962,12 @@ body.page-id-202 .blog-posts img {
 body.page-id-202 .blog-posts .post-content-text {
   margin-bottom: 25px; }
 
-body.single-post ul, body.single-post dl {
+body.single-post .left-container ul, body.single-post .left-container dl {
   padding-left: 15px;
   padding-bottom: 20px; }
-body.single-post ul, body.single-post dl {
+body.single-post .left-container ul, body.single-post .left-container dl {
   list-style-type: disc; }
-body.single-post ol {
+body.single-post .left-container ol {
   list-style-type: decimal; }
 
 .comments-area {
