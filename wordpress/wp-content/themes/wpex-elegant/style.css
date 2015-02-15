@@ -95,9 +95,9 @@ a { outline: 0 }
 ================================================== */
 .page-header { position: relative; margin-bottom: 30px; }
 .page-template-templatesportfolio-php .page-header { margin-bottom: 25px; }
-.page-header-title { color: #000000; font-size: 2.000em; margin: 0; font-weight: 600; }
+/*.page-header-title { color: #000000; font-size: 2.000em; margin: 0; font-weight: 600; }*/
 .single-post .page-header { margin: 0 0 20px; }
-.single-post .page-header-title { margin: 0 0 10px; font-size: 24px; }
+/*.single-post .page-header-title { margin: 0 0 10px; font-size: 24px; }*/
 #archive-description,
 #portfolio-template-content { margin-top: 10px; }
 #portfolio-template-content p:last-child,

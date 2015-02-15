@@ -1,1 +1,21 @@
+@import '_base';
+
+#{$blog-home},
+#{$single-post} {
+
+  h3,
+  h1 {
+    font-size:18px;
+    a {
+      color:$grey-light-3;
+      text-decoration:none;
+    }
+  }
+
+  .date {
+    color:$grey-dark-1;
+  }
+}
+
 @import '_blog-home';
+@import '_blog-post';

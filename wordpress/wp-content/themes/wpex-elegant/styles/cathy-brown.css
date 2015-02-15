@@ -80,7 +80,7 @@ h2 {
   margin-top: 0;
   margin-bottom: 20px; }
 
-h3 {
+h1, h2, h3, h4, h5 {
   color: #C5C5C5; }
 
 a {
@@ -846,31 +846,73 @@ body.home .home-3-banners .col-4 {
         body.home .home-3-banners .col-4:last-child img {
           margin: 64.5px 0; } }
 
-body.page-id-202 {
-  /*
-  .page-content {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  padding: 0; }
+  @media (min-width: 600px) {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+      float: left; } }
 
-  }
-  */ }
-  body.page-id-202 .blog-posts .post {
-    border-bottom: solid 3px #252525;
-    padding-bottom: 30px;
-    margin-bottom: 30px; }
-  body.page-id-202 .blog-posts h3 {
-    font-size: 18px; }
-    body.page-id-202 .blog-posts h3 a {
-      color: #C5C5C5;
-      text-decoration: none; }
-  body.page-id-202 .blog-posts .date {
-    color: #515151; }
-  body.page-id-202 .blog-posts .image-wrap {
-    max-height: 260px;
-    overflow: hidden;
-    margin: 25px 0; }
-  body.page-id-202 .blog-posts img {
+@media (min-width: 600px) {
+  .col-1 {
+    width: 8.33333%; }
+
+  .col-2 {
+    width: 16.66667%; }
+
+  .col-3 {
+    width: 25%; }
+
+  .col-4 {
+    width: 33.33333%; }
+
+  .col-5 {
+    width: 45%; }
+
+  .col-6 {
+    width: 50%; }
+
+  .col-7 {
+    width: 58.33333%; }
+
+  .col-8 {
+    width: 66.66667%; }
+
+  .col-9 {
+    width: 75%; }
+
+  .col-10 {
+    width: 83.33333%; }
+
+  .col-11 {
+    width: 91.66667%; }
+
+  .col-12 {
     width: 100%; }
-  body.page-id-202 .blog-posts .post-content-text {
-    margin-bottom: 25px; }
+ }
+
+body.page-id-202 h3, body.page-id-202 h1, body.single-post h3, body.single-post h1 {
+  font-size: 18px; }
+  body.page-id-202 h3 a, body.page-id-202 h1 a, body.single-post h3 a, body.single-post h1 a {
+    color: #C5C5C5;
+    text-decoration: none; }
+body.page-id-202 .date, body.single-post .date {
+  color: #515151; }
+
+body.page-id-202 .blog-posts .post {
+  border-bottom: solid 3px #252525;
+  padding-bottom: 30px;
+  margin-bottom: 30px; }
+body.page-id-202 .blog-posts .image-wrap {
+  max-height: 260px;
+  overflow: hidden;
+  margin: 25px 0; }
+body.page-id-202 .blog-posts img {
+  width: 100%; }
+body.page-id-202 .blog-posts .post-content-text {
+  margin-bottom: 25px; }
+
+.comments-area {
+  clear: both; }
 
 body.page-id-71 .left-container {
   width: 100%; }
