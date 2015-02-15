@@ -742,7 +742,8 @@ table {
 
 th, tr:first-child td {
   color: #FFF;
-  font-weight: bold; }
+  font-weight: bold;
+  padding-top: 0; }
 
 td {
   padding: 10px 0;
