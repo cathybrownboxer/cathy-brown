@@ -6,7 +6,7 @@ table {
 
 th,
 tr:first-child td {
-  color:$white-full;
+  color:$grey-light-3;
   font-weight:bold;
   padding-top:0;
 }
@@ -14,6 +14,15 @@ tr:first-child td {
 td {
   padding:10px 0;
   border-bottom:solid 1px #393939;
+}
+
+tr {
+  td:first-child {
+    padding-right:10px;
+  }
+  td:last-child {
+    padding-left:10px;
+  }
 }
 tr:last-child td {
   border-bottom:0 none;
