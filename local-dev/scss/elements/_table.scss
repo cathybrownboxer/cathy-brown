@@ -4,9 +4,11 @@ table {
   width:100% !important;
 }
 
-th {
+th,
+tr:first-child td {
   color:$white-full;
   font-weight:bold;
+  padding-top:0;
 }
 
 td {

@@ -740,7 +740,7 @@ blockquote {
 table {
   width: 100% !important; }
 
-th {
+th, tr:first-child td {
   color: #FFF;
   font-weight: bold; }
 
