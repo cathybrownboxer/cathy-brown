@@ -1,0 +1,15 @@
+$html-name-space:'body.page-id-353';
+
+#{$html-name-space} {
+
+  #{$left-container} {
+    img {
+      @media (min-width:768px) {
+        margin-right:25px;
+      }
+    }
+  }
+
+}
+
+@import '_cv';

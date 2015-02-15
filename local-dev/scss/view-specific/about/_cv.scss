@@ -1,0 +1,26 @@
+$html-name-space:'body.page-id-356';
+
+#{$html-name-space} {
+
+  #{$left-container} {
+    ul {
+      list-style-type:disc;
+      padding-left:$side-spacing-mobile;
+      margin-bottom:$spacing-main-cont-large;
+      padding-bottom:$spacing-main-cont-large;
+      border-bottom:solid 2px $black-2;
+      &:last-child {
+        border-bottom:0 none;
+        padding-bottom:0;
+        margin-bottom:0;
+      }
+      li:first-child {
+        color:$grey-light-3;
+        font-size:14px;
+        margin-left:- $side-spacing-mobile;
+        list-style-type:none;
+      }
+    }
+  }
+
+}
