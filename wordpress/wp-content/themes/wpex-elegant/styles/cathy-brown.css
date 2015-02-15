@@ -891,21 +891,24 @@ body.home .home-3-banners .col-4 {
  }
 
 body.page-id-202 h3, body.page-id-202 h1, body.single-post h3, body.single-post h1 {
-  font-size: 18px; }
+  font-size: 18px;
+  margin-bottom: 0; }
   body.page-id-202 h3 a, body.page-id-202 h1 a, body.single-post h3 a, body.single-post h1 a {
     color: #C5C5C5;
     text-decoration: none; }
 body.page-id-202 .date, body.single-post .date {
   color: #515151; }
+body.page-id-202 .image-wrap, body.single-post .image-wrap {
+  max-height: 260px;
+  overflow: hidden;
+  margin: 25px 0; }
+  body.page-id-202 .image-wrap img, body.single-post .image-wrap img {
+    width: 100%; }
 
 body.page-id-202 .blog-posts .post {
   border-bottom: solid 3px #252525;
   padding-bottom: 30px;
   margin-bottom: 30px; }
-body.page-id-202 .blog-posts .image-wrap {
-  max-height: 260px;
-  overflow: hidden;
-  margin: 25px 0; }
 body.page-id-202 .blog-posts img {
   width: 100%; }
 body.page-id-202 .blog-posts .post-content-text {
@@ -975,3 +978,7 @@ body.page-template-media .page-content {
 .article-grid img {
   width: 100%;
   vertical-align: middle; }
+
+.widget-area h3 {
+  font-size: 15px;
+  margin-bottom: 10px; }

@@ -16,7 +16,7 @@
 if ( is_singular() && is_main_query() ) { ?>
 
 	<?php if ( has_post_thumbnail() && get_theme_mod( 'wpex_blog_post_thumb', '1' ) == '1' ) { ?>
-		<div class="post-thumbnail">
+		<div class="image-wrap">
 			<img src="<?php echo wpex_get_featured_img_url(); ?>" alt="<?php echo esc_attr( the_title_attribute( 'echo=0' ) ); ?>" />
 		</div><!-- .post-thumbnail -->
 	<?php } ?>

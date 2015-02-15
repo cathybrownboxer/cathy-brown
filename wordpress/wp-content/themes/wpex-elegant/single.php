@@ -33,6 +33,11 @@ get_header(); ?>
 				<div class="page-content" class="entry clr">
 					<div class="left-container">
 						<h1 class="page-header-title"><?php the_title(); ?></h1>
+						<?php
+						// Display post meta
+						// See functions/commons.php
+						wpex_post_meta(); ?>
+
 
 						<?php
 						if ( !post_password_required() ) {

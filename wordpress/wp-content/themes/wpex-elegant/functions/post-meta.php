@@ -52,11 +52,10 @@ if ( ! function_exists( 'wpex_post_meta' ) ) {
 			}
 		} ?>
 		
-		<ul class="post-meta clr">
-			<li class="meta-date">
-				<?php _e('Posted on','wpex'); ?>
-				<span class="meta-date-text"><?php echo get_the_date(); ?></span>
-			</li>
+		
+			<span class="date"><?php echo get_the_date(); ?></span>
+
+			<!--
 			<?php if ( !is_page_template('templates/home.php') ) { ?>
 				<?php if(isset($fist_category)){ ?>
 					<li class="meta-category">
@@ -71,6 +70,7 @@ if ( ! function_exists( 'wpex_post_meta' ) ) {
 					</li>
 				<?php } ?>
 			<?php } ?>
+			-->
 		</ul><!-- .post-meta -->
 		
 		<?php
