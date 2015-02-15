@@ -914,6 +914,14 @@ body.page-id-202 .blog-posts img {
 body.page-id-202 .blog-posts .post-content-text {
   margin-bottom: 25px; }
 
+body.single-post ul, body.single-post dl {
+  padding-left: 15px;
+  padding-bottom: 20px; }
+body.single-post ul, body.single-post dl {
+  list-style-type: disc; }
+body.single-post ol {
+  list-style-type: decimal; }
+
 .comments-area {
   clear: both; }
 
