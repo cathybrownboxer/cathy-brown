@@ -18,6 +18,10 @@ img {
   .alignright {
     float: right; } }
 
+iframe {
+  width: 100%;
+  max-width: 100%; }
+
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
   padding: 0; }
   @media (min-width: 600px) {
@@ -1049,6 +1053,30 @@ body.page-id-218 .left-container {
   width: 100%; }
 body.page-id-218 .right-container {
   display: none; }
+
+body.page-id-384 .left-container {
+  width: 100%; }
+body.page-id-384 .right-container {
+  display: none; }
+body.page-id-384 .row .col-4 {
+  padding: 7.5px;
+  text-align: center; }
+  body.page-id-384 .row .col-4 p {
+    margin-bottom: 5px; }
+    @media (min-width: 600px) {
+      body.page-id-384 .row .col-4 p {
+        font-size: 12px; }
+        body.page-id-384 .row .col-4 p span.first {
+          display: none; } }
+    @media (min-width: 980px) {
+      body.page-id-384 .row .col-4 p {
+        font-size: 14px; }
+        body.page-id-384 .row .col-4 p span.first {
+          display: inline-block; } }
+  body.page-id-384 .row .col-4:first-child {
+    padding-left: 0; }
+  body.page-id-384 .row .col-4:last-child {
+    padding-right: 0; }
 
 body.page-id-377 .left-container {
   width: 100%; }
