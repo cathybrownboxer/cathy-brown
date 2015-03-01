@@ -2,8 +2,10 @@
 
 input,
 textarea {
+  @include input-placeholder {
+    color:#606060;
+  }
   background:$black-full;
-  //color:#606060;
   color:$grey-light-1;
   font-size:14px;
   border:0 none;
