@@ -25,22 +25,21 @@
 @import 'view-specific/blog/_blog';
 @import 'view-specific/boxing/_boxing';
 @import 'view-specific/media/_media';
-
+@import 'view-specific/contact/_contact';
 
 
 
 
 //media
+/*
 body.page-template-media {
   #{$page-content} {
-    /*
     .col-3 {
       padding-right:15px;
     }
-    */
   }
 }
-
+*/
 
 .article-grid {
 

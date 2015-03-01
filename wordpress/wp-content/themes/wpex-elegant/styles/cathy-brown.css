@@ -685,6 +685,17 @@ input, textarea {
   background: #050505;
   color: #606060; }
 
+input {
+  border: 0 none;
+  padding: 15px;
+  background: #050505;
+  color: #606060; }
+
+textarea {
+  padding: 15px;
+  background: #050505;
+  color: #606060; }
+
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
   padding: 0; }
   @media (min-width: 600px) {
@@ -1012,13 +1023,15 @@ body.page-id-218 .left-container {
 body.page-id-218 .right-container {
   display: none; }
 
-body.page-template-media .page-content {
-  /*
+/*
+body.page-template-media {
+  .page-content {
     .col-3 {
       padding-right:15px;
     }
-    */ }
-
+  }
+}
+*/
 .article-grid .col-3 {
   float: left;
   width: 50%;
