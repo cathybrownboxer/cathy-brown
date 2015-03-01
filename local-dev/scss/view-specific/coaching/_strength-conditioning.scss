@@ -1,0 +1,33 @@
+$html-name-space:'body.page-id-408';
+
+#{$html-name-space} {
+
+  .strength-conditioning-info-grid {
+    .row {
+      @media (min-width:600px) {
+        margin-bottom:$side-spacing-mobile * 2;
+      }
+      .col-6 {
+        padding-bottom:$side-spacing-mobile;
+        @media (min-width:600px) {
+          padding-bottom:0;
+        }
+        &:first-child {
+          @media (min-width:600px) {
+            padding-right:$side-spacing-mobile;
+          }
+        }
+        .inner {
+          background:$black-full;
+          padding:$side-spacing-mobile-small * 2;
+        }
+        h4 {
+          margin-bottom:5px;
+        }
+        p {
+          margin:0;
+        }
+      }
+    }
+  }
+}
