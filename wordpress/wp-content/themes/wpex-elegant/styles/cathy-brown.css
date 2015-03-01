@@ -1048,11 +1048,12 @@ body.page-id-377 .wpcf7-form span.wpcf7-form-control-wrap {
     body.page-id-377 .wpcf7-form span.wpcf7-form-control-wrap textarea {
       width: 100%;
       max-width: 100%; } }
-  body.page-id-377 .wpcf7-form span.wpcf7-form-control-wrap input[type="submit"] {
-    width: 100%; }
-    @media (min-width: 768px) {
-      body.page-id-377 .wpcf7-form span.wpcf7-form-control-wrap input[type="submit"] {
-        width: auto; } }
+body.page-id-377 input[type="submit"] {
+  width: 100%;
+  margin-top: -5px; }
+  @media (min-width: 768px) {
+    body.page-id-377 input[type="submit"] {
+      width: auto; } }
 
 /*
 body.page-template-media {
