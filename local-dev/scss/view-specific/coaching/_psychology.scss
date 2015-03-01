@@ -2,4 +2,11 @@ $html-name-space:'body.page-id-410';
 
 #{$html-name-space} {
 
+  #{$left-container} {
+    img.alignleft {
+      @media (min-width:768px) {
+        margin-right:30px;
+      }
+    }
+  }
 }

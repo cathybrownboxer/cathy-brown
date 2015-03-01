@@ -1052,6 +1052,19 @@ body.page-id-104 .right-container {
   body.page-id-104 .video-iframe-grid .row .col-4 p {
     min-height: 45px; } }
 
+@media (min-width: 768px) {
+  body.page-id-402 .left-container img.alignright {
+    margin-left: 30px; } }
+
+@media (min-width: 768px) {
+  body.page-id-406 .left-container img.alignleft {
+    margin-right: 30px;
+    margin-bottom: 15px; } }
+
+@media (min-width: 768px) {
+  body.page-id-408 .left-container img.alignleft {
+    margin-right: 30px;
+    margin-bottom: 15px; } }
 @media (min-width: 600px) {
   body.page-id-408 .strength-conditioning-info-grid .row {
     margin-bottom: 30px; } }
@@ -1070,6 +1083,10 @@ body.page-id-408 .strength-conditioning-info-grid .row .col-6 {
     margin-bottom: 5px; }
   body.page-id-408 .strength-conditioning-info-grid .row .col-6 p {
     margin: 0; }
+
+@media (min-width: 768px) {
+  body.page-id-410 .left-container img.alignleft {
+    margin-right: 30px; } }
 
 body.page-id-2 .left-container .col-4 {
   padding-right: 20px; }
