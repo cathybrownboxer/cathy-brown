@@ -683,18 +683,17 @@ blockquote {
 
 input, textarea {
   background: #050505;
-  color: #606060; }
-
-input {
+  color: #989898;
+  font-size: 14px;
   border: 0 none;
-  padding: 15px;
-  background: #050505;
-  color: #606060; }
+  padding: 15px; }
 
-textarea {
-  padding: 15px;
-  background: #050505;
-  color: #606060; }
+input[type="submit"] {
+  cursor: pointer;
+  padding: 12px 13px;
+  background: #2C4721;
+  color: #C5C5C5;
+  font-weight: bold; }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
   padding: 0; }
@@ -1022,6 +1021,30 @@ body.page-id-218 .left-container {
   width: 100%; }
 body.page-id-218 .right-container {
   display: none; }
+
+body.page-id-377 .left-container {
+  width: 100%; }
+body.page-id-377 .right-container {
+  display: none; }
+body.page-id-377 .wpcf7-form span.wpcf7-form-control-wrap {
+  width: 100%; }
+  @media (min-width: 768px) {
+    body.page-id-377 .wpcf7-form span.wpcf7-form-control-wrap {
+      max-width: 480px; } }
+  body.page-id-377 .wpcf7-form span.wpcf7-form-control-wrap input, body.page-id-377 .wpcf7-form span.wpcf7-form-control-wrap textarea {
+    width: 100%; }
+  @media (min-width: 768px) {
+    body.page-id-377 .wpcf7-form span.wpcf7-form-control-wrap input {
+      max-width: 250px; } }
+  @media (min-width: 768px) {
+    body.page-id-377 .wpcf7-form span.wpcf7-form-control-wrap textarea {
+      width: 100%;
+      max-width: 100%; } }
+  body.page-id-377 .wpcf7-form span.wpcf7-form-control-wrap input[type="submit"] {
+    width: 100%; }
+    @media (min-width: 768px) {
+      body.page-id-377 .wpcf7-form span.wpcf7-form-control-wrap input[type="submit"] {
+        width: auto; } }
 
 /*
 body.page-template-media {

@@ -1,8 +1,38 @@
-$html-name-space:'body.page-id-353';
+$html-name-space:'body.page-id-377';
 
 #{$html-name-space} {
 
+  @include left-container-full-width;
+
   #{$left-container} {
+  }
+
+  .wpcf7-form span.wpcf7-form-control-wrap {
+    width:100%;
+    @media (min-width:768px) {
+      max-width:480px;
+    }
+    input,
+    textarea {
+      width:100%;
+    }
+    input {
+      @media (min-width:768px) {
+        max-width:250px;
+      }
+    }
+    textarea {
+      @media (min-width:768px) {
+        width:100%;
+        max-width:100%;
+      }
+    }
+    input[type="submit"] {
+      width:100%;
+      @media (min-width:768px) {
+        width:auto;
+      }
+    }
   }
 
 }

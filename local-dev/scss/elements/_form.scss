@@ -3,19 +3,20 @@
 input,
 textarea {
   background:$black-full;
-  color:#606060;
-}
-
-input {
+  //color:#606060;
+  color:$grey-light-1;
+  font-size:14px;
   border:0 none;
   padding:15px;
-  background:$black-full;
-  color:#606060;
+}
 
+input[type="submit"] {
+  cursor:pointer;
+  padding:12px 13px;
+  background:$green-1;
+  color:$grey-light-3;
+  font-weight:bold;
 }
 
 textarea {
-  padding:15px;
-  background:$black-full;
-  color:#606060;
 }

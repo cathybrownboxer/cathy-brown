@@ -1,0 +1,8 @@
+@mixin left-container-full-width {
+  #{$left-container} {
+    width:100%;
+  }
+  #{$right-container} {
+    display:none;
+  }
+}
