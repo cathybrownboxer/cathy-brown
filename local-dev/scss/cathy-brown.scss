@@ -89,6 +89,34 @@ body.page-template-media {
   }
 }
 
+.video-iframe-grid {
+  .row .col-4 {
+    padding:$side-spacing-mobile / 2;
+    text-align:center;
+    p {
+      margin-bottom:5px;
+      @media (min-width:600px) {
+        font-size:12px;
+        span.first {
+          display:none;
+        }
+      }
+      @media (min-width:980px) {
+        font-size:14px;
+        span.first {
+          display:inline-block;
+        }
+      }
+    }
+    &:first-child {
+      padding-left:0;
+    }
+    &:last-child {
+      padding-right:0;
+    }
+  }
+}
+
 
 .widget-area h3 {
   font-size:15px;

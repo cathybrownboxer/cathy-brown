@@ -1044,6 +1044,14 @@ body.page-id-108 table .date {
     body.page-id-108 table .date {
       display: table-cell; } }
 
+body.page-id-104 .left-container {
+  width: 100%; }
+body.page-id-104 .right-container {
+  display: none; }
+@media (min-width: 600px) {
+  body.page-id-104 .video-iframe-grid .row .col-4 p {
+    min-height: 45px; } }
+
 body.page-id-2 .left-container .col-4 {
   padding-right: 20px; }
 body.page-id-2 .left-container blockquote + .row {
@@ -1058,25 +1066,6 @@ body.page-id-384 .left-container {
   width: 100%; }
 body.page-id-384 .right-container {
   display: none; }
-body.page-id-384 .row .col-4 {
-  padding: 7.5px;
-  text-align: center; }
-  body.page-id-384 .row .col-4 p {
-    margin-bottom: 5px; }
-    @media (min-width: 600px) {
-      body.page-id-384 .row .col-4 p {
-        font-size: 12px; }
-        body.page-id-384 .row .col-4 p span.first {
-          display: none; } }
-    @media (min-width: 980px) {
-      body.page-id-384 .row .col-4 p {
-        font-size: 14px; }
-        body.page-id-384 .row .col-4 p span.first {
-          display: inline-block; } }
-  body.page-id-384 .row .col-4:first-child {
-    padding-left: 0; }
-  body.page-id-384 .row .col-4:last-child {
-    padding-right: 0; }
 
 body.page-id-377 .left-container {
   width: 100%; }
@@ -1147,6 +1136,26 @@ body.page-template-media {
 .article-grid img {
   width: 100%;
   vertical-align: middle; }
+
+.video-iframe-grid .row .col-4 {
+  padding: 7.5px;
+  text-align: center; }
+  .video-iframe-grid .row .col-4 p {
+    margin-bottom: 5px; }
+    @media (min-width: 600px) {
+      .video-iframe-grid .row .col-4 p {
+        font-size: 12px; }
+        .video-iframe-grid .row .col-4 p span.first {
+          display: none; } }
+    @media (min-width: 980px) {
+      .video-iframe-grid .row .col-4 p {
+        font-size: 14px; }
+        .video-iframe-grid .row .col-4 p span.first {
+          display: inline-block; } }
+  .video-iframe-grid .row .col-4:first-child {
+    padding-left: 0; }
+  .video-iframe-grid .row .col-4:last-child {
+    padding-right: 0; }
 
 .widget-area h3 {
   font-size: 15px;
