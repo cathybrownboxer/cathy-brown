@@ -2,12 +2,6 @@ $html-name-space:'body.page-id-218';
 
 #{$html-name-space} {
 
-  #{$left-container} {
-    width:100%;
-  }
-
-  #{$right-container} {
-    display:none;
-  }
+  @include left-container-full-width;
 
 }
