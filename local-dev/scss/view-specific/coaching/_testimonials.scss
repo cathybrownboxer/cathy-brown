@@ -1,5 +1,58 @@
-//$html-name-space:'body.page-id-408';
+$html-name-space:'body.page-id-358';
 
 #{$html-name-space} {
+  @include left-container-full-width;
+
+  .row {
+    margin-bottom:$spacing-main-cont;
+    padding-bottom:$spacing-main-cont;
+    @media (min-width:600px) {
+      padding-top:$spacing-main-cont;
+    }
+    text-align:center;
+    @media (min-width:600px) {
+      text-align:left;
+    }
+    &:first-child {
+      padding-top:0;
+    }
+    &:last-child {
+      padding-bottom:0;
+      margin-bottom:0;
+    }
+
+    .col-3 {
+      text-align:center;
+      padding-bottom:$spacing-main-cont;
+      @media (min-width:600px) {
+        padding-right:$spacing-main-cont;
+        padding-left:$spacing-main-cont;
+
+      }
+    }
+    .col-9 {
+      @media (min-width:600px) {
+        padding-right:$spacing-main-cont;
+      }
+    }
+    img {
+      float:none;
+      display:block;
+      margin:0 auto;
+    }
+    p {
+      margin-bottom:10px;
+      strong {
+        color:$grey-light-3;
+      }
+    }
+    &:nth-child(even) {
+      @media (min-width:600px) {
+        background:$black-full;
+        margin-top:0;
+      }
+    }
+  }
+
 
 }
