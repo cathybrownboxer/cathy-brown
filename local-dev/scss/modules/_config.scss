@@ -3,6 +3,11 @@ $header:'.header-container';
 $header-logo:$header + ' .logo';
 $header-nav:$header + ' .header-nav';
 
+$footer-wrap:'.footer-wrap';
+$footer:'.footer-container';
+$footer-nav:$footer + ' .widget_pages';
+
+
 $main-container:'.main-container';
 
 $left-container:'.left-container';
