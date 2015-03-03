@@ -11,20 +11,21 @@ get_header(); ?>
 
 <div class="social-icons">
 	<ul>
-		<li class="facebook"><a href="#" target="_blank">
+		<li class="facebook"><a href="https://www.facebook.com/cathybrownboxer" target="_blank">
 			<i class="fa fa-facebook-square fa-lg"></i>
 		</a></li>
-		<li class="twitter"><a href="#" target="_blank">
+		<li class="twitter"><a href="https://twitter.com/cathybrownboxer" target="_blank">
 			<i class="fa fa-twitter-square fa-lg"></i>
 		</a></li>
-		<li class="linkedin"><a href="#" target="_blank">
+		<li class="linkedin"><a href="https://uk.linkedin.com/pub/cathy-brown/41/793/798" target="_blank">
 			<i class="fa fa-linkedin-square fa-lg"></i>
 		</a></li>
-		<li class="youtube"><a href="#" target="_blank">
+		<li class="youtube"><a href="https://www.youtube.com/user/thecathybrown" target="_blank">
 			<i class="fa fa-youtube-square fa-lg"></i>
 		</a></li>
 	</ul>
 </div>
+
 <h2 class="page-title"><?php wp_title(''); ?></h2>
 
 	<div id="primary" class="content-area clr">
