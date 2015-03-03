@@ -1,0 +1,15 @@
+@import '_base';
+
+.social-share {
+  .twitter,
+  .facebook {
+    float:left;
+  }
+  .facebook {
+    margin-right:15px;
+  }
+  .twitter {
+    width:86px;
+    overflow:hidden;
+  }
+}

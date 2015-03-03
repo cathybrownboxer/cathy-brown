@@ -11,11 +11,12 @@ get_header(); ?>
 
 	<div id="primary" class="content-area clr">
 		<div id="content" class="site-content clr" role="main">
-			<div id="error-page" class="clr">	
-				<h1 id="error-page-title">404</h1>			
-				<p id="error-page-text">
-				<?php _e( 'Unfortunately, the page you tried accessing could not be retrieved.', 'wpex' ); ?>
-				</p>
+			<div class="clr error-page">
+				<div class="inner">
+					<h2>Whoops!</h2>
+					<p>This page cannot be found.</p>
+					<p><a href="http://cathybrown.co.uk">Go to the home page</a></p>
+				</div>
 			</div><!-- #error-page -->
 		</div><!-- #content -->
 	</div><!-- #primary -->

@@ -19,6 +19,7 @@
 @import 'elements/_form';
 @import 'elements/_buttons';
 @import 'elements/_table';
+@import 'elements/_social-share';
 
 
 @import 'view-specific/home/_home';
@@ -28,6 +29,7 @@
 @import 'view-specific/coaching/_coaching';
 @import 'view-specific/media/_media';
 @import 'view-specific/contact/_contact';
+@import 'view-specific/error/_error';
 
 
 
@@ -124,3 +126,4 @@ body.page-template-media {
   font-size:15px;
   margin-bottom:10px;
 }
+

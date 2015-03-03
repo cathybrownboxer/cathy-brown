@@ -46,13 +46,27 @@ get_header(); ?>
 
 						<?php the_content(); ?>
 
+						<!--
 						<footer class="entry-footer">
 							<?php edit_post_link( __( 'Edit Post', 'wpex' ), '<span class="edit-link clr">', '</span>' ); ?>
-						</footer><!-- .entry-footer -->
+						</footer>
+						-->
 						<?php
 							// Display author bio
 							// See functions/commons.php
 							wpex_post_author(); ?>
+
+
+						<div class="social-share">
+						  <div class="facebook">
+						  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fcathybrown.co.uk%2Fpage%2FBlog%2FJuly%2B2012%2FJuly%2B2012%2B-%2BWomen%2527s%2BBoxing%2Bin%2Bthe%2B2012%2BOlympics&amp;send=false&amp;layout=standard&amp;width=49&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:49px; height:35px;" allowTransparency="true"></iframe>
+						  </div>
+						  <div class="twitter">
+							  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://cathybrown.co.uk" data-text="Cathy Brown - British Boxer, Sporting Performance Coach & Therapist, Broadcaster: " data-via="cathybrownboxer" data-related="cathybrownboxer" data-hashtags="CathyBrown">Tweet</a>
+							  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						  </div>
+						</div>
+
 							<?php comments_template(); ?>
 
 					</div>

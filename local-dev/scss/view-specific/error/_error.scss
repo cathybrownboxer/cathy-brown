@@ -1,0 +1,24 @@
+$html-name-space:'.error-page';
+
+#{$html-name-space} {
+  margin:0 auto;
+  max-width:320px;
+  padding:$side-spacing-mobile;
+  @media (min-width:600px) {
+    padding:$spacing-main-cont;
+  }
+  .inner {
+    background:$black-full;
+    padding:$spacing-main-cont;
+    text-align:center;
+  }
+
+  a {
+    text-decoration:none;
+    &:hover,
+    &:focus {
+      text-decoration:underline;
+    }
+  }
+
+}
