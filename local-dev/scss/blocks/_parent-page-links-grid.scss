@@ -1,6 +1,18 @@
 @import '_base';
 
 .parent-page-links-grid {
+  margin-bottom:$spacing-main-cont-large;
+  .col-3 {
+    @media (min-width:$bp-medium) {
+      width:$col-3-w;
+    }
+  }
+  .col-4 {
+    @media (min-width:$bp-medium) {
+      width:$col-4-w;
+    }
+  }
+  .col-3,
   .col-4 {
     position:relative;
     max-height:200px;
@@ -25,7 +37,6 @@
     }
 
     @media (min-width:$bp-medium) {
-      width:$col-4-w;
       padding:$side-spacing-mobile / 2;
       margin-bottom:0;
       &:first-child {
