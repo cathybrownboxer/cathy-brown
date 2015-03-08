@@ -9,6 +9,23 @@ $html-name-space:'body.page-id-71';
     display:none;
   }
 
+  .parent-page-links-grid {
+    .col-3 {
+      @media (min-width:$bp-medium){
+        max-height:117px;
+        .title {
+          line-height:117px;
+        }
+      }
+      @media (min-width:$bp-large){
+        max-height:150px;
+        .title {
+          line-height:150px;
+        }
+      }
+    }
+  }
+
   #{$page-content} {
     .col-9 {
       padding-right:30px;

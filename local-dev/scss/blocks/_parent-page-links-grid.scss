@@ -3,8 +3,17 @@
 .parent-page-links-grid {
   margin-bottom:$spacing-main-cont-large;
   .col-3 {
+    @media (min-width:$bp-small) {
+      width:50%;
+      &:nth-child(3n) {
+        clear:both;
+      }
+    }
     @media (min-width:$bp-medium) {
       width:$col-3-w;
+      &:nth-child(3n) {
+        clear:none;
+      }
     }
   }
   .col-4 {
@@ -66,6 +75,7 @@
       margin:auto;
       font-size:20px;
       line-height:200px;
+      padding:0 0 0 7.5px;
       color:$grey-light-4;
       p {
         text-shadow:0 3px 2px $black-full;
