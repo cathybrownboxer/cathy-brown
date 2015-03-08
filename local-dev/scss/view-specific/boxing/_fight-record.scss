@@ -22,7 +22,7 @@ $html-name-space:'body.page-id-108';
 
     .date {
       display:none;
-      @media (min-width:600px) {
+      @media (min-width:$bp-small) {
         display:table-cell;
       }
     }

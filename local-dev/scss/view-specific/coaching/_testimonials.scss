@@ -6,11 +6,11 @@ $html-name-space:'body.page-id-358';
   .row {
     margin-bottom:$spacing-main-cont;
     padding-bottom:$spacing-main-cont;
-    @media (min-width:600px) {
+    @media (min-width:$bp-small) {
       padding-top:$spacing-main-cont;
     }
     text-align:center;
-    @media (min-width:600px) {
+    @media (min-width:$bp-small) {
       text-align:left;
     }
     &:first-child {
@@ -24,14 +24,14 @@ $html-name-space:'body.page-id-358';
     .col-3 {
       text-align:center;
       padding-bottom:$spacing-main-cont;
-      @media (min-width:600px) {
+      @media (min-width:$bp-small) {
         padding-right:$spacing-main-cont;
         padding-left:$spacing-main-cont;
 
       }
     }
     .col-9 {
-      @media (min-width:600px) {
+      @media (min-width:$bp-small) {
         padding-right:$spacing-main-cont;
       }
     }
@@ -47,7 +47,7 @@ $html-name-space:'body.page-id-358';
       }
     }
     &:nth-child(even) {
-      @media (min-width:600px) {
+      @media (min-width:$bp-small) {
         background:$black-full;
         margin-top:0;
       }

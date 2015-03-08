@@ -6,7 +6,7 @@ $html-name-space:'body.page-id-377';
 
   .wpcf7-form span.wpcf7-form-control-wrap {
     width:100%;
-    @media (min-width:768px) {
+    @media (min-width:$bp-medium) {
       max-width:480px;
     }
     input,
@@ -14,12 +14,12 @@ $html-name-space:'body.page-id-377';
       width:100%;
     }
     input {
-      @media (min-width:768px) {
+      @media (min-width:$bp-medium) {
         max-width:250px;
       }
     }
     textarea {
-      @media (min-width:768px) {
+      @media (min-width:$bp-medium) {
         width:100%;
         max-width:100%;
       }
@@ -28,7 +28,7 @@ $html-name-space:'body.page-id-377';
   input[type="submit"] {
     width:100%;
     margin-top:-5px;
-    @media (min-width:768px) {
+    @media (min-width:$bp-medium) {
       width:auto;
     }
   }

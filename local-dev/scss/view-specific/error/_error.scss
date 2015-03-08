@@ -4,7 +4,7 @@ $html-name-space:'.error-page';
   margin:0 auto;
   max-width:320px;
   padding:$side-spacing-mobile;
-  @media (min-width:600px) {
+  @media (min-width:$bp-small) {
     padding:$spacing-main-cont;
   }
   .inner {

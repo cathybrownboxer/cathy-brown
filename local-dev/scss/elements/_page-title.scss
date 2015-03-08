@@ -4,7 +4,7 @@ h2.page-title {
   clear:both;
   color:$grey-light-3;
   padding:0 $side-spacing-mobile;
-  @media (min-width:768px) {
+  @media (min-width:$bp-medium) {
     padding:0;
   }
 }

@@ -16,7 +16,7 @@ body {
 }
 
 #{$main-container} {
-  @media (min-width:768px) {
+  @media (min-width:$bp-medium) {
     padding:0 $spacing-main-cont;
   }
 }
@@ -24,20 +24,20 @@ body {
 .page-content {
   #{$left-container},
   #{$right-container} {
-    @media (min-width:768px) {
+    @media (min-width:$bp-medium) {
       float:left;
     }
   }
   #{$left-container} {
     padding:$side-spacing-mobile;
-    @media (min-width:768px) {
+    @media (min-width:$bp-medium) {
       width:70%;
       padding:0;
     }
   }
   #{$right-container} {
     display:none;
-    @media (min-width:768px) {
+    @media (min-width:$bp-medium) {
       display:block;
       width:30%;
       padding-left:$spacing-main-cont + 15px;

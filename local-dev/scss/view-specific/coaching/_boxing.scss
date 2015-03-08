@@ -4,7 +4,7 @@ $html-name-space:'body.page-id-406';
 
   #{$left-container} {
     img.alignleft {
-      @media (min-width:768px) {
+      @media (min-width:$bp-medium) {
         margin:{
           right:30px;
           bottom:15px;

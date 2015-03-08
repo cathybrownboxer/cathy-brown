@@ -4,7 +4,7 @@ $html-name-space:'body.page-id-408';
 
   #{$left-container} {
     img.alignleft {
-      @media (min-width:768px) {
+      @media (min-width:$bp-medium) {
         margin:{
           right:30px;
           bottom:15px;
@@ -15,16 +15,16 @@ $html-name-space:'body.page-id-408';
 
   .strength-conditioning-info-grid {
     .row {
-      @media (min-width:600px) {
+      @media (min-width:$bp-small) {
         margin-bottom:$side-spacing-mobile * 2;
       }
       .col-6 {
         padding-bottom:$side-spacing-mobile;
-        @media (min-width:600px) {
+        @media (min-width:$bp-small) {
           padding-bottom:0;
         }
         &:first-child {
-          @media (min-width:600px) {
+          @media (min-width:$bp-small) {
             padding-right:$side-spacing-mobile;
           }
         }
