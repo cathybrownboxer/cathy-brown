@@ -1,0 +1,31 @@
+@import '_base';
+
+.back-btn-wrap {
+  display:none;
+  padding:0 15px;
+  margin:{
+    top:-10px;
+    bottom:20px;
+  }
+  @media (min-width:$bp-medium) {
+    padding:0;
+  }
+  .btn {
+    margin-left:-9px;
+    color:#505050;
+  }
+}
+
+//only show 'back to parent page' button on child pages
+body.page-id-384,
+body.page-id-218,
+body.page-id-104,
+body.page-id-108,
+body.page-id-464,
+body.page-id-493,
+body.page-id-495 {
+  .back-btn-wrap {
+    display:block;
+  }
+
+}
