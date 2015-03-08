@@ -35,7 +35,9 @@
 }
 
 #{$footer-nav} {
-
+  display:inline-block;
+  vertical-align:top;
+  width:100%;
   padding-bottom:$spacing-main-cont;
 
   .widget-title {
@@ -47,12 +49,6 @@
     margin:{
       right:20px;
       bottom:8px;
-    }
-    &:nth-child(3n) {
-      clear:both;
-      @media (min-width:$bp-small) {
-        clear:none;
-      }
     }
     a {
       text-decoration:none;

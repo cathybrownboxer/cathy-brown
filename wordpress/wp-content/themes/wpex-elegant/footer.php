@@ -16,7 +16,14 @@
 		<div id="footer" class="clr footer-container">
 			<div id="footer-widgets" class="clr">
 				<div class="footer-box span_1_of_3 col col-5">
-					<?php dynamic_sidebar( 'footer-one' ); ?>
+					<!--<?php dynamic_sidebar( 'footer-one' ); ?>-->
+					<?php
+						// Display main menu
+						wp_nav_menu( array(
+							'theme_location'	=> 'main_menu',
+							'sort_column'		=> 'menu_order',
+							'fallback_cb'		=> false
+						) ); ?>
 				</div><!-- .footer-box -->
 				<div class="footer-box span_1_of_3 col col-2">
 					<?php dynamic_sidebar( 'footer-two' ); ?>
