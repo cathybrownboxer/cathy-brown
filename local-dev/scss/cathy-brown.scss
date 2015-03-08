@@ -28,6 +28,7 @@
 @import 'view-specific/boxing/_boxing';
 @import 'view-specific/coaching/_coaching';
 @import 'view-specific/media/_media';
+@import 'view-specific/galleries/_galleries';
 @import 'view-specific/contact/_contact';
 @import 'view-specific/error/_error';
 
@@ -126,4 +127,80 @@ body.page-template-media {
   font-size:15px;
   margin-bottom:10px;
 }
+
+
+
+.parent-page-links-grid {
+
+  .col-4 {
+    position:relative;
+    max-height:200px;
+    overflow:hidden;
+    text-align:center;
+    padding:$side-spacing-mobile-small;
+    margin-bottom:10px;
+    font-weight:bold;
+    a {
+      display:block;
+      text-decoration:none;
+      text-transform:uppercase;
+      color:$white-full;
+    }
+
+    img {
+      opacity:0.3;
+      width:100%;
+    }
+    @media (min-width:600px) {
+      max-height:150px;
+    }
+
+    @media (min-width:768px) {
+      width:$col-4-w;
+      padding:$side-spacing-mobile / 2;
+      margin-bottom:0;
+      &:first-child {
+        padding-left:0;
+      }
+      &:last-child {
+        padding-right:0;
+      }
+      &:hover,
+      &:focus {
+        transition:all 0.2s ease;
+        img {
+          opacity:0.5;
+        }
+      }
+    }
+
+    .title {
+      position:absolute;
+      z-index:1;
+      width:100%;
+      height:100%;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      margin:auto;
+      font-size:20px;
+      line-height:200px;
+      color:$grey-light-4;
+      p {
+        text-shadow:0 3px 2px $black-full;
+      }
+      @media (min-width:600px) {
+        line-height:150px;
+      }
+    }
+
+  }
+
+}
+
+
+
+
+
 

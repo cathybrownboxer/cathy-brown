@@ -1303,6 +1303,11 @@ body.page-id-384 .left-container {
 body.page-id-384 .right-container {
   display: none; }
 
+body.page-id-79 .left-container {
+  width: 100%; }
+body.page-id-79 .right-container {
+  display: none; }
+
 body.page-id-377 .left-container {
   width: 100%; }
 body.page-id-377 .right-container {
@@ -1412,3 +1417,54 @@ body.page-template-media {
 .widget-area h3 {
   font-size: 15px;
   margin-bottom: 10px; }
+
+.parent-page-links-grid .col-4 {
+  position: relative;
+  max-height: 200px;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-weight: bold; }
+  .parent-page-links-grid .col-4 a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF; }
+  .parent-page-links-grid .col-4 img {
+    opacity: 0.3;
+    width: 100%; }
+  @media (min-width: 600px) {
+    .parent-page-links-grid .col-4 {
+      max-height: 150px; } }
+  @media (min-width: 768px) {
+    .parent-page-links-grid .col-4 {
+      width: 33.33333%;
+      padding: 7.5px;
+      margin-bottom: 0; }
+      .parent-page-links-grid .col-4:first-child {
+        padding-left: 0; }
+      .parent-page-links-grid .col-4:last-child {
+        padding-right: 0; }
+      .parent-page-links-grid .col-4:hover, .parent-page-links-grid .col-4:focus {
+        transition: all 0.2s ease; }
+        .parent-page-links-grid .col-4:hover img, .parent-page-links-grid .col-4:focus img {
+          opacity: 0.5; } }
+  .parent-page-links-grid .col-4 .title {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    font-size: 20px;
+    line-height: 200px;
+    color: #EEE; }
+    .parent-page-links-grid .col-4 .title p {
+      text-shadow: 0 3px 2px #050505; }
+    @media (min-width: 600px) {
+      .parent-page-links-grid .col-4 .title {
+        line-height: 150px; } }
