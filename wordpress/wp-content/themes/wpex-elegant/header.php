@@ -37,7 +37,7 @@
 
 <body <?php body_class(); ?>>
 
-	<div id="wrap">
+	<div id="wrap" class="page-wrap">
 		<div id="header-wrap" class="clr header-wrap">
 			<header id="header" class="header site-header clr header-container" role="banner">
 				<?php

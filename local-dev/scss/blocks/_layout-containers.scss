@@ -2,9 +2,13 @@
 
 body {
   @include font-default;
-  background:$black-1;
+  background:$black-full;
   color:$grey-light-1;
   font-size:13px;
+}
+
+.page-wrap {
+  background:$black-1;
 }
 
 #{$header},
