@@ -1,18 +1,29 @@
 @import '_base';
 
+//spacing for all pages with gallery 
+.page-id-82,
+.page-id-84,
+.page-id-86 {
+  #{$left-container} {
+    padding:5px;
+    @media (min-width:$bp-medium) {
+      margin:0 0 0 -10px;
+    }
+  }
+}
+
+//the actual gallery items
 #{$gallery} {
   a {
     border-radius:0;
     width:$col-4-w;
     margin:0 !important;
-    padding:10px;
     background-color:transparent !important;
-    &:nth-child(1n) {
-      padding-left:0;
-    }
-    &:nth-child(3n) {
-      padding-right:0;
-    }
+  }
+  img {
+    width:100%;
+    margin-bottom:0;
+    padding:10px;
   }
 }
 
