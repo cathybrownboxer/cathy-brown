@@ -1,16 +1,16 @@
 {
-  "name": "sass-quick-start",
+  "name": "cathy-brown",
   "version": "0.0.0",
-  "description": "Quick start sass to css compilation with grunt or gulp",
+  "description": "Wordpress site with local sass dev",
   "repository": {
     "type": "git",
     "url": "https://github.com/ttbarnes/sass-quick-start.git"
   },
   "author": "Tony Barnes",
   "bugs": {
-    "url": "https://github.com/ttbarnes/sass-quick-start/issues"
+    "url": "https://github.com/ttbarnes/cathybrown-v2.git"
   },
-  "homepage": "https://github.com/ttbarnes/sass-quick-start",
+  "homepage": "http://cathybrown.co.uk",
   "devDependencies": {
     "gulp": "*",
     "gulp-sass": "*",
