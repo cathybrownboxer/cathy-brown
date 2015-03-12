@@ -15,7 +15,7 @@
     @media (min-width:$bp-medium) {
       width:$col-3-w;
       clear:none;
-      padding:$side-spacing-mobile / 2;
+      //padding:$side-spacing-mobile / 2;
       &:first-child {
         padding-left:0;
       }
@@ -28,9 +28,14 @@
   a {
     display:block;
     opacity:0.8;
-    max-height:150px;
+    //max-height:150px;
+    max-height:110px;
     overflow-y:hidden;
-    @media (min-width:50px) {
+    @media (min-width:$bp-x-small) {
+      //max-height:180px;
+      max-height:150px;
+    }
+    @media (min-width:$bp-small) {
       max-height:180px;
     }
     @media (min-width:$bp-medium) {
@@ -45,5 +50,6 @@
   img {
     width:100%;
     vertical-align:middle;
+    margin-bottom:0;
   }
 }
