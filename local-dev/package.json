@@ -12,12 +12,6 @@
   },
   "homepage": "https://github.com/ttbarnes/sass-quick-start",
   "devDependencies": {
-    "grunt": "*",
-    "grunt-contrib-clean": "*",
-    "grunt-contrib-cssmin": "*",
-    "grunt-contrib-sass": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
     "gulp": "*",
     "gulp-sass": "*",
     "gulp-concat": "*",
