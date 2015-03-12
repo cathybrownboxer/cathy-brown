@@ -93,8 +93,24 @@ $html-name-space:'body.home';
   .home-3-banners {
     .col-4 {
       text-align:center;
-      padding-bottom:$spacing-main-cont;
+      width:100%;
+      padding:{
+        right:$side-spacing-mobile;
+        bottom:$spacing-main-cont;
+        left:$side-spacing-mobile;
+      }
+      @media (min-width:$bp-x-small) {
+        float:left;
+        width:$col-6-w;
+        &:first-child {
+          padding-right:$side-spacing-mobile / 2;
+        }
+        &:last-child {
+          padding-left:$side-spacing-mobile / 2;
+        }
+      }
       @media (min-width:$bp-medium) {
+        width:$col-4-w;
         padding:{
           top:0;
           right:$spacing-main-cont;
@@ -120,8 +136,8 @@ $html-name-space:'body.home';
         @media (min-width:$bp-medium) {
           display:block;
           padding-right:0;
-          img {
-            margin:64.5px 0;
+          .inner {
+            padding:61px $side-spacing-mobile;
           }
         }
       }
