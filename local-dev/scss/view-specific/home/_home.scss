@@ -17,14 +17,14 @@ $html-name-space:'body.home';
     .right {
       width:100%;
       clear:both;
-      @media (min-width:$bp-medium) {
+      @media (min-width:$bp-large + 60px) {
         clear:none;
         padding:$spacing-main-cont;
       }
     }
     .left {
       padding:$spacing-main-cont $side-spacing-mobile 0;
-      @media (min-width:$bp-medium) {
+      @media (min-width:$bp-large + 60px) {
         float:left;
         width:48%;
         padding:$spacing-main-cont-large 0 $spacing-main-cont-large $spacing-main-cont-large;
@@ -35,8 +35,13 @@ $html-name-space:'body.home';
     }
     .right {
       @media (min-width:$bp-medium) {
+        max-height:300px;
+        overflow:hidden;
+      }
+      @media (min-width:$bp-large + 60px) {
         float:right;
         width:525px;
+        max-height:100%;
         margin-right:-55px;
         padding:0;
       }
