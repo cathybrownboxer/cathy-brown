@@ -40,9 +40,7 @@ body {
     }
   }
   #{$right-container} {
-    display:none;
     @media (min-width:$bp-medium) {
-      display:block;
       width:30%;
       padding-left:$spacing-main-cont + 15px;
     }
