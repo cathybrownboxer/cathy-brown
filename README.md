@@ -1,5 +1,5 @@
 #cathybrown-v2
-Wordpress site 
+Wordpress site utilising a customisted version of the [wpex-elegant] (http://wpexplorer-demos.com/elegant/) theme.
 
 
 ###Directory structure
@@ -24,6 +24,10 @@ We follow a modular sass structure.
               elements/             < elements - eg, the page title element, social share icons.
               modules/              < sass specific modules - config/variables, mixins, colours, custom columns.
               view-specific/        < view/page specific sass.
+
+Sass is compiled into CSS here:
+
+    /wordpress/wp-content/themes/wpex-elegant/styles/cathy-brown.min.css
 
 ###General workflow (for style updates)
 - run gulp locally, watch for changes
