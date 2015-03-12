@@ -16,7 +16,7 @@
 
 #{$header-logo} {
   float:left;
-  width:65%;
+  //width:65%;
 
   img {
     width:100%;
@@ -26,6 +26,7 @@
 
 #{$header-nav} {
   float:right;
+  padding-right:$side-spacing-mobile + 5px;
   .dropdown-menu a {
     color:$grey-light-2;
     &:hover,
@@ -33,8 +34,19 @@
       color:$white-full;
     }
   }
+  //overide default theme styles
+  #site-navigation .sf-menu {
+    display:none;
+    @media (min-width:$bp-large) {
+      display:block;
+    }
+  }
 }
 
 a#navigation-toggle {
   line-height:30px;
+  height:auto;
+  @media (min-width:$bp-large) {
+    display:none;
+  }
 }
