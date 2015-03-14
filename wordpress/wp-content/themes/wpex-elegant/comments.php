@@ -28,7 +28,7 @@ if ( !comments_open() && get_comment_pages_count() == 0 ) return; ?>
 				?>
 			</span>
 		</h2>
-		<ol class="commentlist">
+		<ol class="comment-list">
 			<?php wp_list_comments( array(
 				'callback'		=> 'wpex_comment',
 			) ); ?>
@@ -63,7 +63,8 @@ if ( !comments_open() && get_comment_pages_count() == 0 ) return; ?>
 			'<textarea id="comment" name="comment" rows="5" aria-required="true"></textarea>' .
 			'</p>',
 	    'comment_notes_after' => '',
-	    'title_reply' => 'Leave a comment'
+	    'title_reply' => 'Leave a comment',
+	  'label_submit' => __('Post comment')
 
 
 	)); ?>

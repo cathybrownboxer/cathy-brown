@@ -1,0 +1,35 @@
+#{$blog-comments} {
+
+
+
+  .comment-list {
+    padding-left:0;
+    .comment-author {
+      position:relative;
+    }
+  }
+
+  .comment-reply-title {
+    font-size:15px;
+  }
+
+  //form
+  .comment-respond {
+    max-width:470px;
+
+    label,
+    .comment-notes,
+    .required {
+      display:none;
+    }
+
+    .comment-form-comment {
+      margin-bottom:16px;
+    }
+
+    textarea {
+      max-width:100%;
+    }
+  }
+
+}
