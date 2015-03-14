@@ -39,12 +39,18 @@
       max-height:180px;
     }
     @media (min-width:$bp-medium) {
-      max-height:160px;
+      max-height:152px;
       transition:all 0.2s ease;
       &:hover,
       &:focus {
         opacity:1;
       }
+    }
+    @media (min-width:$bp-medium + 50px) {
+      min-height:160px;
+    }
+    @media (min-width:$bp-medium + 100px) {
+      min-height:170px;
     }
   }
   img {
