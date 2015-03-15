@@ -15,7 +15,6 @@ class WPEX_Dropdown_Walker_Nav_Menu extends Walker_Nav_Menu {
 		
 		if ( !empty( $children_elements[$element->$id_field] ) && ( $depth == 0 ) ) {
 			$element->classes[] = 'dropdown';
-			$element->title .= ' <i class="fa fa-angle-down"></i>';
 		}
 		
 		if ( !empty( $children_elements[$element->$id_field] ) && ( $depth > 0 ) ) {
