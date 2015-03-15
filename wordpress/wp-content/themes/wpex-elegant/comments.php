@@ -48,13 +48,11 @@ if ( !comments_open() && get_comment_pages_count() == 0 ) return; ?>
 
 <div id="comments" class="comments-area">
 	<?php if ( have_comments() ) { ?>
-		<h2 id="comments-title" class="heading">
-			<span>
+		<h3>
 				<?php
-					printf( _nx( 'This article has 1 comment', 'This article has %1$s comments', '', 'comments title', 'wpex' ),
+					printf( _nx( 'Comments', 'Comments', '', 'comments title', 'wpex' ),
 						number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
 				?>
-			</span>
 		</h2>
 		<ol class="comment-list">
 			<?php wp_list_comments( array(

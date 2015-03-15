@@ -390,7 +390,6 @@ textarea.wpcf7-not-valid { border-color: #FF4847 }
 .comment-content p:last-child { margin: 0 }
 .comment-date a,
 a.comment-reply-link { font-size: 0.9em; color: #808080 }
-#reply-title small { font-size: 1em; }
 a#cancel-comment-reply-link { color: red; display: inline; font-weight: 400; font-size: 1em; }
 a#cancel-comment-reply-link:hover { text-decoration: underline; }
 #respond { margin: 40px 0 0; }
@@ -399,7 +398,6 @@ a#cancel-comment-reply-link:hover { text-decoration: underline; }
 #comments-logged-in { font-size: 13px; margin-bottom: 30px; margin-top: 10px; }
 #log-out { float: right; margin-top: -56px; }
 .comment-form-comment label[for="comment"] { display: none }
-#reply-title { font-size: 1em; margin: 0 0 20px; }
 #commentform textarea { width: 100% }
 #comments .form-allowed-tags { display: none }
 .comment-awaiting-moderation { background: #02AACE; color: #fff; display: inline-block; line-height: 1em; margin-bottom: 20px; margin-top: 10px; padding: 2px 6px; }
