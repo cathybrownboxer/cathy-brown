@@ -33,4 +33,41 @@ $html-name-space:'body.page-id-377';
     }
   }
 
+
+  //form error messages
+  .screen-reader-response {
+    padding-bottom:10px;
+    color:$red-1;
+    font-weight:bold;
+    ul {
+      display:none;
+    }
+  }
+
+  span.wpcf7-not-valid-tip {
+    display:block;
+    color:$red-1;
+    font-weight:bold;
+    padding:{
+      top:5px;
+      left:$side-spacing-mobile;
+    }
+    @media (min-width:$bp-medium) {
+      padding-top:0;
+      display:inline-block;
+      vertical-align:middle;
+    }
+  }
+
+  div.wpcf7-validation-errors {
+    padding:0;
+    text-align:left;
+    background:none;
+    color:$red-1;
+    font-weight:bold;
+  }
+  .wpcf7-response-output {
+    margin-top:5px;
+  }
+
 }
