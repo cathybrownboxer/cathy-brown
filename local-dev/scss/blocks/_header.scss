@@ -30,13 +30,22 @@
 #{$header-nav} {
   float:right;
   padding-right:$side-spacing-mobile - 10px;
-  .dropdown-menu a {
-    color:$grey-light-2;
-    &:hover,
-    &:focus {
-      color:$white-full;
+  .dropdown-menu {
+    ul {
+      background:$black-full;
+    }
+    a {
+      color:$grey-light-2;
+      &:hover,
+      &:focus {
+        color:$white-full;
+      }
     }
   }
+  li.sfHover > a {
+    color:$white-full;
+  }
+
   //overide default theme styles
   #site-navigation .sf-menu {
     display:none;
