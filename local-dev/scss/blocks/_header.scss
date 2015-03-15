@@ -16,7 +16,10 @@
 
 #{$header-logo} {
   float:left;
-  //width:65%;
+  max-width:200px;
+  @media (min-width:$bp-x-small) {
+    max-width:100%;
+  }
 
   img {
     width:100%;
@@ -26,7 +29,7 @@
 
 #{$header-nav} {
   float:right;
-  padding-right:$side-spacing-mobile + 5px;
+  padding-right:$side-spacing-mobile - 10px;
   .dropdown-menu a {
     color:$grey-light-2;
     &:hover,
@@ -46,6 +49,10 @@
 a#navigation-toggle {
   line-height:30px;
   height:auto;
+  padding-left:0;
+  @media (min-width:$bp-x-small) {
+    padding-left:$side-spacing-mobile;
+  }
   @media (min-width:$bp-large) {
     display:none;
   }
