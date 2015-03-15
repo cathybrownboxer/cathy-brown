@@ -1,8 +1,11 @@
 #{$blog-comments} {
   clear:both;
-  margin-top:40px;
+  margin:40px 0;
   padding-top:$spacing-main-cont;
   border-top:solid 3px $black-2;
+  @media (min-width:$bp-small) {
+    margin-bottom:0;
+  }
 
   h3 {
     clear:both;

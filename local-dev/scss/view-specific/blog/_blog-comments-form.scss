@@ -1,5 +1,7 @@
 #{$blog-comments-form} {
-  max-width:470px;
+  @media (min-width:$bp-small) {
+    max-width:470px;
+  }
 
   label,
   .comment-notes,
