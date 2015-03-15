@@ -5,6 +5,7 @@
 
   h3,
   h1 {
+    clear:both;
     font-size:18px;
     margin-bottom:0;
     a {
@@ -30,3 +31,4 @@
 @import '_blog-home';
 @import '_blog-post';
 @import '_blog-comments';
+@import '_blog-comments-form';

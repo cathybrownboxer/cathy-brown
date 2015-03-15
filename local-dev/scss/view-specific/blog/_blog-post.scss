@@ -1,5 +1,11 @@
 #{$single-post} {
 
+  .comment-reply-title {
+    clear:both;
+    font-size:15px !important;
+    margin-bottom:$side-spacing-mobile;
+  }
+
   #{$left-container} {
     ul,
     dl,
@@ -17,8 +23,4 @@
     }
   }
 
-}
-
-#{$comments} {
-  clear:both;
 }

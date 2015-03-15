@@ -1,11 +1,14 @@
 #{$blog-comments} {
+  clear:both;
+  margin-top:40px;
+  padding-top:$spacing-main-cont;
+  border-top:solid 3px $black-2;
 
   h3 {
     clear:both;
     font-size:15px !important;
     margin-bottom:$side-spacing-mobile;
   }
-
 
   .comment-list {
     padding:{
@@ -55,6 +58,10 @@
     .reply a {
       color:$grey-dark-1;
       text-decoration:none;
+      &:hover,
+      &:focus {
+        text-decoration:underline;
+      }
     }
     .comment-meta .fn a,
     .comment-date a {
@@ -85,25 +92,6 @@
     .comment-content {
       font-size:12px;
       color:$grey-light-1;
-    }
-  }
-
-  //form
-  .comment-respond {
-    max-width:470px;
-
-    label,
-    .comment-notes,
-    .required {
-      display:none;
-    }
-
-    .comment-form-comment {
-      margin-bottom:16px;
-    }
-
-    textarea {
-      max-width:100%;
     }
   }
 

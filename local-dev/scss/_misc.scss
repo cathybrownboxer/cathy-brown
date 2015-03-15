@@ -34,11 +34,13 @@ iframe {
 
 .logged-in-as {
   a {
-    color:$grey-dark-1;
     text-decoration:none;
     &:hover,
     &:focus {
       text-decoration:underline;
+    }
+    &:last-child {
+      color:$grey-dark-1;
     }
   }
 }

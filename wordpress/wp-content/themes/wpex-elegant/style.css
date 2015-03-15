@@ -375,7 +375,6 @@ input.wpcf7-not-valid[type="tel"],
 textarea.wpcf7-not-valid { border-color: #FF4847 }
 /* Comments
 ================================================== */
-#comments { margin-top: 60px }
 #comments span.required { color: #C30 }
 .commentlist { margin: 0 }
 .commentlist .children { margin-left: 30px; }
@@ -392,7 +391,6 @@ textarea.wpcf7-not-valid { border-color: #FF4847 }
 a.comment-reply-link { font-size: 0.9em; color: #808080 }
 a#cancel-comment-reply-link { color: red; display: inline; font-weight: 400; font-size: 1em; }
 a#cancel-comment-reply-link:hover { text-decoration: underline; }
-#respond { margin: 40px 0 0; }
 .commentlist li article { position: relative }
 .commentlist #respond { margin-bottom: 100px }
 #comments-logged-in { font-size: 13px; margin-bottom: 30px; margin-top: 10px; }

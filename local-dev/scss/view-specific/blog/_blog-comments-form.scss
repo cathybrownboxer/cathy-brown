@@ -1,0 +1,17 @@
+#{$blog-comments-form} {
+  max-width:470px;
+
+  label,
+  .comment-notes,
+  .required {
+    display:none;
+  }
+
+  .comment-form-comment {
+    margin-bottom:16px;
+  }
+
+  textarea {
+    max-width:100% !important;
+  }
+}
