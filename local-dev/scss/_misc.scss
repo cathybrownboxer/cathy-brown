@@ -29,3 +29,14 @@ iframe {
   width:100%;
   max-width:100%;
 }
+
+.logged-in-as {
+  a {
+    color:$grey-dark-1;
+    text-decoration:none;
+    &:hover,
+    &:focus {
+      text-decoration:underline;
+    }
+  }
+}
