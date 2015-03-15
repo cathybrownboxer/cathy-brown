@@ -18,6 +18,34 @@ if ( post_password_required() ) return;
 // Comments are closed and empty, do nothing
 if ( !comments_open() && get_comment_pages_count() == 0 ) return; ?>
 
+<?php comment_form( 
+	array(
+	'title_reply'	=> '<div class="heading"><span>'. __('Leave a comment','wpex') .'</span></div>',
+	'fields' => apply_filters(
+		'comment_form_default_fields', array(
+			'author' =>'<p class="comment-form-author">' . '<input id="author" placeholder="Name" name="author" type="text" value="' .
+				esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' />'.
+				'<label for="author">' . __( 'Name' ) . '</label> ' .
+				( $req ? '<span class="required">*</span>' : '' )  .
+				'</p>'
+				,
+			'email'  => '<p class="comment-form-email">' . '<input id="email" placeholder="Email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .
+				'" size="30"' . $aria_req . ' />'  .
+				'<label for="email">' . __( 'Email' ) . '</label> ' .
+				( $req ? '<span class="required">*</span>' : '' )
+		)
+	),
+	'comment_field' => '<p class="comment-form-comment">' .
+		'<label for="comment">' . __( 'Let us know what you have to say:' ) . '</label>' .
+		'<textarea id="comment" name="comment" rows="5" aria-required="true"></textarea>' .
+		'</p>',
+    'comment_notes_after' => '',
+    'title_reply' => 'Leave a comment',
+  'label_submit' => __('Post comment')
+
+
+)); ?>
+
 <div id="comments" class="comments-area">
 	<?php if ( have_comments() ) { ?>
 		<h2 id="comments-title" class="heading">
@@ -41,31 +69,4 @@ if ( !comments_open() && get_comment_pages_count() == 0 ) return; ?>
 			</nav>
 		<?php } ?>
 	<?php } // have_comments() ?>
-	<?php comment_form( 
-		array(
-		'title_reply'	=> '<div class="heading"><span>'. __('Leave a comment','wpex') .'</span></div>',
-		'fields' => apply_filters(
-			'comment_form_default_fields', array(
-				'author' =>'<p class="comment-form-author">' . '<input id="author" placeholder="Name" name="author" type="text" value="' .
-					esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' />'.
-					'<label for="author">' . __( 'Name' ) . '</label> ' .
-					( $req ? '<span class="required">*</span>' : '' )  .
-					'</p>'
-					,
-				'email'  => '<p class="comment-form-email">' . '<input id="email" placeholder="Email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .
-					'" size="30"' . $aria_req . ' />'  .
-					'<label for="email">' . __( 'Email' ) . '</label> ' .
-					( $req ? '<span class="required">*</span>' : '' )
-			)
-		),
-		'comment_field' => '<p class="comment-form-comment">' .
-			'<label for="comment">' . __( 'Let us know what you have to say:' ) . '</label>' .
-			'<textarea id="comment" name="comment" rows="5" aria-required="true"></textarea>' .
-			'</p>',
-	    'comment_notes_after' => '',
-	    'title_reply' => 'Leave a comment',
-	  'label_submit' => __('Post comment')
-
-
-	)); ?>
 </div><!-- #comments -->
