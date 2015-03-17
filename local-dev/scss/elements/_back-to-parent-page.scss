@@ -2,13 +2,14 @@
 
 .back-btn-wrap {
   display:none;
-  padding:0 15px;
+  text-align:left !important;
+  padding:0 15px !important;
   margin:{
     top:-10px;
-    bottom:20px;
+    bottom:20px !important;
   }
   @media (min-width:$bp-medium) {
-    padding:0;
+    padding:0 !important;
   }
   .btn {
     margin-left:-9px;

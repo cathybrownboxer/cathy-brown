@@ -40,8 +40,11 @@ body {
     }
   }
   #{$right-container} {
+    clear:both;
+    width:100%;
     @media (min-width:$bp-medium) {
       width:30%;
+      clear:none;
       padding-left:$spacing-main-cont + 15px;
     }
   }

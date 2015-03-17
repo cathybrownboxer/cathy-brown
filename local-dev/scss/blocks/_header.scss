@@ -65,7 +65,8 @@
         }
       }
     }
-    li.current-menu-item a {
+    li.current-menu-item > a,
+    li.current-page-parent > a {
       @include header-nav-active-item;
     }
   }
