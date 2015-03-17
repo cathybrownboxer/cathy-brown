@@ -1,4 +1,4 @@
-$html-name-space:'body.page-id-464';
+$html-name-space:'body.page-id-464, body.page-id-676';
 
 #{$html-name-space} {
   @include left-container-full-width;
@@ -13,6 +13,10 @@ $html-name-space:'body.page-id-464';
     @media (min-width:$bp-small) {
       text-align:left;
     }
+    &:nth-child(even) {
+      background:$black-full;
+      margin-top:0;
+    }
     &:first-child {
       padding-top:0;
     }
@@ -21,6 +25,29 @@ $html-name-space:'body.page-id-464';
       margin-bottom:0;
     }
 
+    .col-12 {
+      padding:{
+        top:$side-spacing-mobile-small * 4;
+        right:$side-spacing-mobile-small * 4;
+        bottom:$side-spacing-mobile-small * 4;
+        left:$side-spacing-mobile-small * 4;
+      }
+      @media (min-width:$bp-small) {
+        padding:{
+          top:0;
+          bottom:0;
+        }
+      }
+      h4 {
+        margin-bottom:10px;
+      }
+      p:last-child {
+        margin-bottom:0;
+        @media (min-width:$bp-small) {
+          margin-bottom:10px;
+        }
+      }
+    }
     .col-3 {
       text-align:center;
       padding:{
@@ -61,11 +88,6 @@ $html-name-space:'body.page-id-464';
         color:$grey-light-3;
       }
     }
-    &:nth-child(even) {
-      background:$black-full;
-      margin-top:0;
-    }
   }
-
 
 }
