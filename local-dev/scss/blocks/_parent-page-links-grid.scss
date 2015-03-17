@@ -1,7 +1,9 @@
 @import '_base';
 
 .parent-page-links-grid {
-  margin-bottom:$spacing-main-cont-large;
+  @media (min-width:$bp-small) {
+    margin-bottom:$spacing-main-cont-large;
+  }
   .col-3 {
     @media (min-width:$bp-small) {
       width:50%;
