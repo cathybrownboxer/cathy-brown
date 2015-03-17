@@ -28,26 +28,49 @@
 }
 
 #{$header-nav} {
-  float:left;
-  clear:both;
-  padding:{
-    top:10px;
-    right:$side-spacing-mobile - 10px;
+  float:right;
+  @media (min-width:$bp-large) {
+    float:left;
+    clear:both;
+    padding:{
+      top:10px;
+      right:$side-spacing-mobile - 10px;
+    }
   }
   .dropdown-menu {
     ul {
       background:$black-full;
     }
     a {
+      padding:10px;
       color:$grey-light-2;
+      text-transform:uppercase;
+      font:{
+        weight:bold;
+      }
       &:hover,
       &:focus {
-        color:$white-full;
+        @include header-nav-active-item;
       }
+    }
+    > li {
+      margin:0;
+      > a {
+        padding:0 9px;
+        font-size:12px;
+        transition:all 0.2s ease;
+        @media (min-width:$bp-large + 65px) {
+          padding:0 10px;
+          font-size:13px;
+        }
+      }
+    }
+    li.current-menu-item a {
+      @include header-nav-active-item;
     }
   }
   li.sfHover > a {
-    color:$white-full;
+    @include header-nav-active-item;
   }
 
   //overide default theme styles

@@ -21,3 +21,8 @@
     @content;
   }
 }
+
+@mixin header-nav-active-item {
+  background:$yellow-1;
+  color:$black-full;
+}
