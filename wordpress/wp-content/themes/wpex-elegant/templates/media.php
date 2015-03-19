@@ -90,5 +90,6 @@ get_header(); ?>
 					<?php } ?>
 			<?php endwhile; ?>
 		</div><!-- #content -->
+		<?php echo '<div class="row back-btn-wrap last"><a class="btn btn-sm btn-black" href="'.get_permalink($post->post_parent).'">Back to '.get_the_title($post->post_parent).'</a></div>'; ?>
 	</div><!-- #primary -->
 <?php get_footer(); ?>
