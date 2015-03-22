@@ -5,15 +5,19 @@
   text-align:left !important;
   padding:0 15px !important;
   margin:{
-    top:-10px;
+    top:-5px;
     bottom:20px !important;
   }
   @media (min-width:$bp-medium) {
     padding:0 !important;
   }
   .btn {
-    margin-left:-9px;
     color:#505050;
+    background:$black-full;
+    &:hover,
+    &:focus {
+      color:$white-full;
+    }
   }
 }
 
