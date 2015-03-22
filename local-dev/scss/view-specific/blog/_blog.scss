@@ -21,9 +21,10 @@
   .image-wrap {
     max-height:260px;
     overflow:hidden;
-    margin:25px 0;
+    margin:$side-spacing-mobile 0;
     img {
       width:100%;
+      margin-bottom:0;
     }
   }
 }
