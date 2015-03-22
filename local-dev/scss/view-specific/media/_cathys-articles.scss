@@ -1,0 +1,23 @@
+$html-name-space:'body.page-id-48';
+
+#{$html-name-space} {
+
+  .article-grid a {
+    @media (min-width:$bp-x-small) {
+      max-height:150px;
+    }
+    @media (min-width:$bp-small) {
+      max-height:180px;
+    }
+    @media (min-width:$bp-medium) {
+      max-height:152px;
+    }
+    @media (min-width:$bp-medium + 50px) {
+      min-height:160px;
+    }
+    @media (min-width:$bp-medium + 100px) {
+      min-height:170px;
+    }
+  }
+
+}
