@@ -6,6 +6,7 @@ h2.page-title {
   padding:0 $side-spacing-mobile;
   font-size:20px;
   text-shadow:0 2px 4px #000;
+  text-transform:uppercase;
   @media (min-width:$bp-small) {
     font-size:22px;
   }
