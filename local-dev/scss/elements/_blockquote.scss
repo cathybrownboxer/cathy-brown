@@ -19,5 +19,15 @@ blockquote {
       weight:bold;
     }
     margin-bottom:0;
+    /*
+    &::after {
+      display:inline-block;
+      vertical-align:middle;
+      content:'';
+      width:25px;
+      height:25px;
+      background:url(../images/quote-close.png) no-repeat;
+    }
+    */
   }
 }
