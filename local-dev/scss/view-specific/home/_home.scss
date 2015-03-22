@@ -4,6 +4,7 @@ $html-name-space:'body.home';
 #{$html-name-space} {
 
   .home-intro,
+  .home-videos,
   .home-small-banner {
     margin-bottom:$spacing-main-cont;
   }
@@ -54,6 +55,29 @@ $html-name-space:'body.home';
     img {
       width:100%;
       vertical-align:middle;
+    }
+  }
+
+  .home-videos {
+    margin-top:10px;
+    > div {
+      margin-bottom:$spacing-main-cont;
+      @media (min-width:$bp-small) {
+        margin-bottom:0;
+        &:first-child {
+          padding-right:$side-spacing-mobile;
+        }
+        &:last-child {
+          padding-left:$side-spacing-mobile;
+        }
+      }
+      p {
+        text-align:center;
+        margin-bottom:5px;
+        &:last-child {
+          margin-bottom:0;
+        }
+      }
     }
   }
 
