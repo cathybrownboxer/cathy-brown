@@ -4,12 +4,16 @@
   display:none;
   text-align:left !important;
   padding:0 15px !important;
+  background:none !important;
   margin:{
     top:-5px;
     bottom:20px !important;
   }
   @media (min-width:$bp-medium) {
     padding:0 !important;
+  }
+  &.last {
+    margin-top:$side-spacing-mobile !important;
   }
   .btn {
     color:#505050;

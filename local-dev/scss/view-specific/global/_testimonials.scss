@@ -6,22 +6,16 @@ $html-name-space:'body.page-id-464, body.page-id-676, body.page-id-682';
   .row {
     margin-bottom:$spacing-main-cont;
     padding-bottom:$spacing-main-cont;
+    text-align:center;
+    background:$black-full;
+    margin-top:0;
     @media (min-width:$bp-small) {
       padding-top:$spacing-main-cont;
     }
-    text-align:center;
     @media (min-width:$bp-small) {
       text-align:left;
     }
-    &:nth-child(even) {
-      background:$black-full;
-      margin-top:0;
-    }
-    &:first-child {
-      padding-top:0;
-    }
     &:last-child {
-      padding-bottom:0;
       margin-bottom:0;
     }
 
