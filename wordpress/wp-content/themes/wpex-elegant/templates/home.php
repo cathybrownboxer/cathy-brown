@@ -9,6 +9,24 @@
 
 get_header(); ?>
 
+	<div class="social-icons">
+		<ul>
+			<li class="facebook"><a href="https://www.facebook.com/cathybrownboxer" target="_blank">
+				<i class="fa fa-facebook-square fa-lg"></i>
+			</a></li>
+			<li class="twitter"><a href="https://twitter.com/cathybrownboxer" target="_blank">
+				<i class="fa fa-twitter-square fa-lg"></i>
+			</a></li>
+			<li class="linkedin"><a href="https://uk.linkedin.com/pub/cathy-brown/41/793/798" target="_blank">
+				<i class="fa fa-linkedin-square fa-lg"></i>
+			</a></li>
+			<li class="youtube"><a href="https://www.youtube.com/user/thecathybrown" target="_blank">
+				<i class="fa fa-youtube-square fa-lg"></i>
+			</a></li>
+		</ul>
+	</div>
+
+
 	<div id="primary" class="content-area clr">
 		<div id="content" class="site-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
