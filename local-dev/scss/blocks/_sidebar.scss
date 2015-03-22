@@ -16,5 +16,9 @@
       weight:500;
       size:14px;
     }
+    &:hover,
+    &:focus {
+      color:$yellow-1;
+    }
   }
 }
