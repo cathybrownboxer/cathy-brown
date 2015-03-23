@@ -17,13 +17,14 @@
 #{$header-logo} {
   float:left;
   max-width:200px;
+  margin-bottom:7px;
   @media (min-width:$bp-x-small) {
     max-width:100%;
   }
 
   img {
     width:100%;
-    max-width:253px;
+    max-width:283px;
   }
 }
 
