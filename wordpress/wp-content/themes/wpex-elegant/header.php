@@ -44,6 +44,10 @@
 				// Outputs the site logo
 				// See functions/logo.php
 				wpex_logo(); ?>
+
+        <div class="quote">
+          <p>"If you see it in your mind, you're going to hold it in your hand"<strong> THE LAW OF ATTRACTION</strong></p>
+        </div>
 				<div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
 				<div class="header-nav" id="site-navigation-wrap">
 					<a href="#sidr-main" id="navigation-toggle"><span class="fa fa-bars"></span><?php echo __( 'Menu', 'wpex' ); ?></a>

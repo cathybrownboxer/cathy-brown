@@ -37,6 +37,25 @@
   }
 }
 
+#{$header-quote} {
+  display:none;
+  @media (min-width:$bp-large) {
+    display:block;
+    float:left;
+    font-size:12px;
+    color:#606060;
+    padding:{
+      top:7px;
+      left:15px;
+    }
+  }
+  @media (min-width:$bp-large + 65px) {
+    float:right;
+    padding-right:25px;
+  }
+}
+
+
 #{$header-nav} {
   float:right;
   @media (min-width:$bp-large) {
@@ -71,6 +90,7 @@
         transition:all 0.2s ease;
         @media (min-width:$bp-large + 65px) {
           font-size:13px;
+          padding:0 9px;
         }
       }
     }
