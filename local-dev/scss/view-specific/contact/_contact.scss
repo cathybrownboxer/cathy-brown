@@ -3,6 +3,9 @@ $html-name-space:'body.page-id-377';
 #{$html-name-space} {
 
   @include left-container-full-width;
+  #{$left-container} {
+    padding-top:15px;
+  }
 
   .wpcf7-form span.wpcf7-form-control-wrap {
     width:100%;
