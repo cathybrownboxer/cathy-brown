@@ -26,6 +26,10 @@
   li:last-child a {
     padding-bottom:0;
   }
+
+  + .menu {
+    margin-top:$spacing-main-cont + 15px;
+  }
 }
 
 
