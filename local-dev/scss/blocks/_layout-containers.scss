@@ -44,6 +44,9 @@ body {
       width:70%;
       margin-bottom:0;
     }
+    blockquote:last-child {
+      margin-bottom:0;
+    }
   }
   #{$right-container} {
     clear:both;
