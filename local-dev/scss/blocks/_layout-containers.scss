@@ -37,10 +37,12 @@ body {
     }
   }
   #{$left-container} {
-    padding:$side-spacing-mobile;
+    padding:$spacing-main-cont;
+    background:$black-full;
+    margin-bottom:$spacing-main-cont;
     @media (min-width:$bp-medium) {
       width:70%;
-      padding:0;
+      margin-bottom:0;
     }
   }
   #{$right-container} {
