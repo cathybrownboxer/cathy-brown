@@ -2,7 +2,7 @@
   clear:both;
   margin:$side-spacing-mobile 0;
   padding-top:$spacing-main-cont;
-  border-top:solid 3px $black-2;
+  border-top:solid 3px #1F1F1F;
   @media (min-width:$bp-small) {
     margin-bottom:0;
   }

@@ -1,1 +1,9 @@
-//@import '_testimonials';
+$html-name-space:'body.page-id-668';
+
+#{$html-name-space} {
+  #{$left-container} {
+    p:last-child {
+      margin-bottom:0;
+    }
+  }
+}

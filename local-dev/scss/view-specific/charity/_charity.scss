@@ -1,7 +1,17 @@
-$html-name-space:'body.page-id-71';
+$html-name-space:'body.page-id-488';
 
 #{$html-name-space} {
-  @include left-container-full-width;
+
+  .parent-page-links-grid {
+    .col-3,
+    .col-4 {
+      max-height:100%;
+      margin-bottom:0;
+      img {
+        margin-bottom:0;
+      }
+    }
+  }
 
 }
 

@@ -37,6 +37,9 @@ body {
     }
   }
   #{$left-container} {
+    display:inline-block;
+    vertical-align:top;
+    width:100%;
     padding:$spacing-main-cont;
     background:$black-full;
     margin-bottom:$spacing-main-cont;

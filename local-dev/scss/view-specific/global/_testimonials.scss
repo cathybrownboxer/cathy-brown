@@ -3,6 +3,11 @@ $html-name-space:'body.page-id-464, body.page-id-676, body.page-id-682';
 #{$html-name-space} {
   @include left-container-full-width;
 
+  #{$left-container} {
+    background:none;
+    padding:0;
+  }
+
   .row {
     margin-bottom:$spacing-main-cont;
     padding-bottom:$spacing-main-cont;

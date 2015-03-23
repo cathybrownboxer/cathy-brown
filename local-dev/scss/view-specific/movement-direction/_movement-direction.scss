@@ -1,12 +1,2 @@
 @import '_testimonials';
-
-//movement direction videos:
-
-body.page-id-674 {
-  #{$left-container} {
-
-    .video-iframe-grid .row {
-      margin-bottom:$side-spacing-mobile;
-    }
-  }
-}
+@import '_videos';
