@@ -8,9 +8,14 @@
 #{$header} {
   position:relative;
   text-align:left;
-  padding:$spacing-main-cont $side-spacing-mobile 0;
-  @media (min-width:$bp-medium) {
-    padding-bottom:5px;
+  //padding:$spacing-main-cont $side-spacing-mobile 0;
+  padding:15px 15px 10px 15px;
+
+  @media (min-width:$bp-large) {
+    padding:{
+      top:20px;
+      bottom:0;
+    }
   }
 }
 
@@ -21,10 +26,14 @@
   @media (min-width:$bp-x-small) {
     max-width:100%;
   }
+  @media (min-width:$bp-large) {
+    margin-bottom:10px;
+  }
 
   img {
     width:100%;
     max-width:283px;
+    margin-bottom:0;
   }
 }
 
@@ -88,6 +97,7 @@ a#navigation-toggle {
   height:auto;
   padding-left:0;
   @media (min-width:$bp-x-small) {
+    line-height:40px;
     padding-left:$side-spacing-mobile;
   }
   @media (min-width:$bp-large) {
