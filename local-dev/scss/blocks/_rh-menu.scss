@@ -15,12 +15,28 @@
       color:$yellow-1;
     }
   }
-  li a {
-    padding:5px 0;
-    color:$grey-light-1;
-    &:hover,
-    &:focus {
-      color:$yellow-1;
+  
+  li {
+
+    //hide 'page home' links from RH menu (header only)
+    &.page-item-828, //boxing home
+    &.page-item-831, //media home
+    &.page-item-834, //movement direction home
+    &.page-item-837, //public speaking home
+    &.page-item-839, //coaching home
+    &.page-item-842, //galleries home
+    &.page-item-848, //about home
+    &.page-item-845 { //charity home
+      display:none !important;
+    }
+
+    a {
+      padding:5px 0;
+      color:$grey-light-1;
+      &:hover,
+      &:focus {
+        color:$yellow-1;
+      }
     }
   }
   li:last-child a {

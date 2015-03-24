@@ -102,6 +102,9 @@
     }
     > li {
       margin:0;
+      &:first-child {
+        display:none;
+      }
       > a {
         padding:0 8px;
         font-size:12px;
