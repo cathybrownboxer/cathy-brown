@@ -1,8 +1,6 @@
 #{$blog-comments} {
   clear:both;
   margin:$side-spacing-mobile 0;
-  padding-top:$spacing-main-cont;
-  border-top:solid 3px #1F1F1F;
   @media (min-width:$bp-small) {
     margin-bottom:0;
   }
@@ -11,6 +9,12 @@
     clear:both;
     font-size:15px !important;
     margin-bottom:$side-spacing-mobile;
+  }
+
+  > h3:first-child {
+    margin-top:$side-spacing-mobile;
+    padding-top:$spacing-main-cont;
+    border-top:solid 3px #1F1F1F;
   }
 
   .comment-list {
