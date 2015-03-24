@@ -4,34 +4,64 @@ $html-name-space:'body.page-id-377';
 
   @include left-container-full-width;
   #{$left-container} {
-    padding-top:15px;
-  }
 
-  .wpcf7-form span.wpcf7-form-control-wrap {
-    width:100%;
-    margin-top:0;
-    @media (min-width:$bp-medium) {
-      max-width:480px;
-    }
-    input,
-    textarea {
-      width:100%;
-    }
-    input {
-      @media (min-width:$bp-medium) {
-        max-width:250px;
+
+    .col-4 {
+      max-width:150px;
+      margin:0 auto;
+      @media (min-width:$bp-small) {
+        float:right;
+        max-width:222px;
+      }
+      img {
+        margin-bottom:10px;
+        @media (min-width:$bp-small) {
+          margin-bottom:0;
+        }
       }
     }
-    textarea {
+    .col-8 {
+      @media (min-width:$bp-small) {
+        padding-right:30px;
+      }
+      
+    }
+  }
+
+  .wpcf7-form {
+    p:nth-child(5) {
+      margin-bottom:10px;
+    }
+    span.wpcf7-form-control-wrap {
+      width:100%;
+      margin-top:0;
       @media (min-width:$bp-medium) {
+        max-width:480px;
+      }
+      input,
+      textarea {
         width:100%;
-        max-width:100%;
+        transition:all 0.2s ease;
+        &:hover,
+        &:focus {
+          border-color:#816A00;
+        }
+      }
+      input {
+        @media (min-width:$bp-medium) {
+          max-width:250px;
+        }
+      }
+      textarea {
+        @media (min-width:$bp-medium) {
+          width:100%;
+          max-width:100%;
+        }
       }
     }
   }
   input[type="submit"] {
     width:100%;
-    margin-top:-5px;
     @media (min-width:$bp-medium) {
       width:auto;
     }
@@ -40,7 +70,6 @@ $html-name-space:'body.page-id-377';
 
   //form error messages
   .screen-reader-response {
-    padding-bottom:10px;
     color:$red-1;
     font-weight:bold;
     ul {
@@ -71,7 +100,28 @@ $html-name-space:'body.page-id-377';
     font-weight:bold;
   }
   .wpcf7-response-output {
+    margin-top:0;
+  }
+  .ajax-loader {
+    opacity:0.6;
     margin-top:5px;
+    @media (min-width:$bp-small) {
+      display:inline-block;
+      vertical-align:middle;
+      margin:{
+        top:0;
+        left:10px;
+      }
+    }
+  }
+
+  form.invalid {
+    .screen-reader-response {
+      padding-bottom:10px;
+    }
+    input[type="submit"] {
+      margin-bottom:10px;
+    }
   }
 
 }
