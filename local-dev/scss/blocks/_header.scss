@@ -22,7 +22,6 @@
 #{$header-logo} {
   float:left;
   max-width:200px;
-  margin-bottom:7px;
   @media (min-width:$bp-x-small) {
     max-width:100%;
   }
@@ -30,10 +29,29 @@
     margin-bottom:10px;
   }
 
+  a {
+    display:inline-block;
+  }
+
   img {
     width:100%;
     max-width:283px;
-    margin-bottom:0;
+    float:left;
+    margin:{
+      right:7px;
+      bottom:0;
+    }
+  }
+
+  .fa {
+    display:none;
+    @media (min-width:$bp-x-small) {
+      float:left;
+      display:block;
+      opacity:0.3;
+      margin-top:11px;
+      color:$white-full:
+    }
   }
 }
 
@@ -46,7 +64,7 @@
     color:#606060;
     padding:{
       top:7px;
-      left:15px;
+      left:39px;
     }
   }
   @media (min-width:$bp-large + 65px) {

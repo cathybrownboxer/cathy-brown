@@ -17,7 +17,7 @@ if ( ! function_exists( 'wpex_logo' ) ) {
 
 		<div id="logo" class="logo">
 			<?php if ( $logo_img ) { ?>
-				<a href="<?php echo $home_url; ?>" title="<?php echo $blog_name; ?>" rel="home"><img src="<?php echo $logo_img; ?>" alt="<?php echo $blog_name; ?>" /></a>
+				<a href="<?php echo $home_url; ?>" title="<?php echo $blog_name; ?>" rel="home"><img src="<?php echo $logo_img; ?>" alt="<?php echo $blog_name; ?>" /><i class="fa fa-home"></i></a>
 			<?php } else { ?>
 				<h2><a href="<?php echo $home_url; ?>" title="<?php echo $blog_name; ?>" rel="home"><?php echo $blog_name; ?></a></h2>
 			<?php } ?>
