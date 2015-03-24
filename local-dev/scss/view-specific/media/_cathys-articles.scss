@@ -20,4 +20,10 @@ $html-name-space:'body.page-id-48';
     }
   }
 
+  #{$right-container} {
+    .menu + .menu li.page_item_has_children {
+      display:none;
+    }
+  }
+
 }
