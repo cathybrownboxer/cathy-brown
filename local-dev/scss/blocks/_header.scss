@@ -116,6 +116,10 @@ a#navigation-toggle {
   line-height:30px;
   height:auto;
   padding-left:0;
+  &:hover,
+  &:focus {
+    color:#888;
+  }
   @media (min-width:$bp-x-small) {
     line-height:40px;
     padding-left:$side-spacing-mobile;

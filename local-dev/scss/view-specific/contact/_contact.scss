@@ -104,7 +104,10 @@ $html-name-space:'body.page-id-377';
   }
   .ajax-loader {
     opacity:0.6;
-    margin-top:5px;
+    margin:{
+      top:5px;
+      bottom:0;
+    }
     @media (min-width:$bp-small) {
       display:inline-block;
       vertical-align:middle;
