@@ -26,5 +26,11 @@ $html-name-space:'body.page-id-108';
         display:table-cell;
       }
     }
+    
+    //failsafe for WP
+    + p,
+    + br {
+      display:none;
+    }
   }
 }

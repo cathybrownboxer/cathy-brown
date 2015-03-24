@@ -4,6 +4,11 @@ $html-name-space:'body.page-id-104';
 
   @include left-container-full-width;
 
+  #{$left-container} {
+    padding:0;
+    background:none;
+  }
+
   .video-iframe-grid .row .col-4 p {
     @media (min-width:$bp-small) {
       min-height:45px;
