@@ -39,6 +39,7 @@ get_header(); ?>
 					<?php if ( get_the_content() !== '' ) { ?>
 						<div class="page-content" class="entry clr">
 							<div class="left-container">
+
 								<h2 class="page-title"><?php wp_title(''); ?></h2>
 
 								<?php the_content(); ?>

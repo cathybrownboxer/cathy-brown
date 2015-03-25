@@ -1,5 +1,7 @@
 $html-name-space:'body.page-id-48';
 
+$child-pages:'.page-id-68,.page-id-66,.page-id-64,.page-id-50,.page-id-58,.page-id-62,.page-id-60';
+
 #{$html-name-space} {
 
   .article-grid a {
@@ -26,4 +28,48 @@ $html-name-space:'body.page-id-48';
     }
   }
 
+}
+
+
+//cathy's articles - sub pages (the actual articles)
+//hide menu links.
+
+#{$child-pages} {
+  #{$right-container} {
+
+    .menu li.current_page_item {
+      display:none;
+    }
+    .menu + .menu {
+      h3 {
+        display:none;
+      }
+      > ul > li {
+        display:none;
+        &.current_page_ancestor {
+          display:block;
+          > a {
+            color:$grey-light-3;
+            padding-bottom:10px;
+            font:{
+              size:16px;
+              weight:bold;
+            }
+            &:hover,
+            &:focus {
+              color:$yellow-1;
+            }
+          }
+
+          ul.children {
+            li:first-child {
+            }
+            ul.children {
+              display:none;
+            }
+          }
+        }
+      }
+    }
+  }
 }
