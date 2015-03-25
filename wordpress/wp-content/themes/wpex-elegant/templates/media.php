@@ -26,7 +26,6 @@ get_header(); ?>
 	</ul>
 </div>
 
-<h2 class="page-title"><?php wp_title(''); ?></h2>
 <?php echo '<div class="row back-btn-wrap"><a class="btn btn-sm" href="'.get_permalink($post->post_parent).'">Back to '.get_the_title($post->post_parent).'</a></div>'; ?>
 
 	<div id="primary" class="content-area clr">
@@ -40,6 +39,7 @@ get_header(); ?>
 					<?php if ( get_the_content() !== '' ) { ?>
 						<div class="page-content" class="entry clr">
 							<div class="left-container">
+								<h2 class="page-title"><?php wp_title(''); ?></h2>
 
 								<?php the_content(); ?>
 							</div>
