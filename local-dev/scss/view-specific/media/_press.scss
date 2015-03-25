@@ -2,4 +2,51 @@ $html-name-space:'body.page-id-55';
 
 #{$html-name-space} {
 
+  .article-grid-3-col-titles {
+    .col-4 {
+      position:relative;
+      padding:0 0 15px 0;
+      max-width:300px;
+      margin:0 auto 15px auto;
+      @media (min-width:$bp-small) {
+        padding:5px 5px 15px 5px;
+        margin-bottom:5px;
+        &:first-child {
+          padding-left:0;
+        }
+        &:last-child {
+          padding-right:0;
+        }
+      }
+      a {
+        text-decoration:none;
+      }
+      img {
+        width:100%;
+        margin-bottom:0;
+      }
+      span.title {
+        display:block;
+        width:100%;
+        background:$black-full;
+        color:$yellow-1;
+        font-weight:bold;
+        text-decoration:none;
+        text-align:center;
+        padding:2.5px 0;
+        margin:0 auto;
+        position:absolute;
+        background:rgba(5, 5, 5, 0.77);
+        bottom:0;
+        left:0;
+        @media (min-width:$bp-small) {
+          max-width:227px;
+        }
+      }
+    }
+    &:last-child .col-4 {
+      padding-bottom:0;
+    }
+  }
+
 }
