@@ -61,7 +61,7 @@
   @media (min-width:$bp-large) {
     display:block;
     float:left;
-    font-size:12px;
+    font-size:13px;
     color:#606060;
     padding:{
       top:7px;
@@ -71,6 +71,7 @@
   @media (min-width:$bp-large + 65px) {
     float:right;
     padding-right:25px;
+    font-size:13px;
   }
 }
 
