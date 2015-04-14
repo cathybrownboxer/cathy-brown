@@ -253,8 +253,6 @@ html[xmlns] .slides {display: block;}
 .flexslider-container img { display: block; }
 /* Homepage
 ================================================== */
-#homepage-content,
-#homepage-features { margin-top: 30px; }
 #homepage-portfolio,
 #homepage-blog { margin-top: 40px; }
 .homepage-content-bottom-divider {margin-bottom: 0;}
