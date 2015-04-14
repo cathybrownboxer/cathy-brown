@@ -148,6 +148,7 @@ get_header(); ?>
 							</div><!-- #homepage-portfolio -->
 						<?php } ?>
 						<?php wp_reset_postdata(); ?>
+						<blockquote><p>What is freedom of expression? Without the freedom to offend, it ceases to exist - Salman Rushdie</p></blockquote>
 						</div>
 						<div class="right-container">
 							<?php get_sidebar(); ?>
