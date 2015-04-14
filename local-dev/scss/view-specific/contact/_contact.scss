@@ -24,8 +24,14 @@ $html-name-space:'body.page-id-377';
       @media (min-width:$bp-small) {
         padding-right:30px;
       }
-      
     }
+    blockquote:last-child {
+      display:inline-block;
+      vertical-align:top;
+      width:100%;
+      margin-top:20px;
+    }
+
   }
 
   .wpcf7-form {
