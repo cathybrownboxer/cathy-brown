@@ -1,5 +1,9 @@
 #{$blog-home} {
 
+  blockquote:first-child {
+    margin-top:0;
+  }
+
   .blog-posts {
 
     .post {
