@@ -2,14 +2,8 @@ $html-name-space:'body.page-id-464, body.page-id-676, body.page-id-682';
 
 #{$html-name-space} {
 
-  #{$left-container} {
-    background:none;
-    padding:0;
-  }
-
   .row {
     margin-bottom:$spacing-main-cont;
-    padding-bottom:$spacing-main-cont;
     text-align:center;
     background:$black-full;
     margin-top:0;
@@ -24,12 +18,7 @@ $html-name-space:'body.page-id-464, body.page-id-676, body.page-id-682';
     }
 
     .col-12 {
-      padding:{
-        top:$side-spacing-mobile-small * 4;
-        right:$side-spacing-mobile-small * 4;
-        bottom:$side-spacing-mobile-small * 4;
-        left:$side-spacing-mobile-small * 4;
-      }
+      padding:0;
       @media (min-width:$bp-small) {
         padding:{
           top:0;
