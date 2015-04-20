@@ -1,7 +1,6 @@
 $html-name-space:'body.page-id-495';
 
 #{$html-name-space} {
-  @include left-container-full-width;
   img.alignleft {
     @media (min-width:$bp-medium) {
       margin:{
