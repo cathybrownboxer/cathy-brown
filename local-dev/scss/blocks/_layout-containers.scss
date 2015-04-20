@@ -62,6 +62,10 @@ body {
   }
 }
 
+body.page-parent .page-content {
+  @include left-container-full-width;
+}
+
 .row {
   float:left;
   clear:both;
