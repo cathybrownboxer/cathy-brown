@@ -8,7 +8,6 @@
 #{$header} {
   position:relative;
   text-align:left;
-  //padding:$spacing-main-cont $side-spacing-mobile 0;
   padding:15px 15px 10px 15px;
 
   @media (min-width:$bp-large) {
@@ -24,9 +23,6 @@
   max-width:200px;
   @media (min-width:$bp-x-small) {
     max-width:100%;
-  }
-  @media (min-width:$bp-large) {
-    margin-bottom:10px;
   }
 
   a {
@@ -58,6 +54,9 @@
 
 #{$header-quote} {
   display:none;
+  p {
+    margin-bottom:0;
+  }
   @media (min-width:$bp-large) {
     display:block;
     float:left;
