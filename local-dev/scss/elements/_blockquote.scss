@@ -7,13 +7,13 @@ blockquote {
   line-height:1.3em;
   padding:10px 10px 10px 46px;
   margin-bottom:$spacing-main-cont;
-  color:$grey-light-1;
+  color:$white-full;
   background:{
     color:$black-full;
     position:10px 8px;
   }
   p {
-    color:$grey-light-3;
+    color:$white-full;
     font:{
       style:italic;
       weight:bold;
@@ -29,5 +29,8 @@ blockquote {
       background:url(../images/quote-close.png) no-repeat;
     }
     */
+  }
+  span {
+    color:$grey-light-1;
   }
 }

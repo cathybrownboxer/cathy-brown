@@ -56,12 +56,15 @@
   display:none;
   p {
     margin-bottom:0;
+    color:$white-full;
+  }
+  strong {
+    color:$grey-light-1;
   }
   @media (min-width:$bp-large) {
     display:block;
     float:left;
     font-size:13px;
-    color:#8D8D8D;
     padding:{
       top:7px;
       left:39px;
