@@ -74,6 +74,11 @@ $html-name-space:'body.page-id-464, body.page-id-676, body.page-id-682';
       strong {
         color:$grey-light-3;
       }
+      &:last-child {
+        strong {
+          color:$grey-light-2;
+        }
+      }
     }
   }
 
