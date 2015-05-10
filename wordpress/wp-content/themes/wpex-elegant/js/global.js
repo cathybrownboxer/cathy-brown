@@ -54,6 +54,29 @@ jQuery( function($) {
 		// Fixed Header
 		//$("#header-wrap.fixed-header").sticky({topSpacing:0});
 
+
+		//charity page
+		var subContentRefuge = $('#sub-content-refuge');
+	  var showMoreRefuge = $('#show-more-refuge');
+	  var subContentMentalHealthFoundation = $('#sub-content-mental-health-foundation');
+	  var showMoreMentalHealth = $('#show-more-mental-health-foundation');
+
+		if(subContentRefuge) {
+
+		  subContentRefuge.hide();
+		  subContentMentalHealthFoundation.hide();
+		  
+		  showMoreRefuge.click(function(e) {
+		    subContentRefuge.show();
+		    $(this).hide();
+		  });
+		  
+		  showMoreMentalHealth.click(function(e) {
+		    subContentMentalHealthFoundation.show();
+		    $(this).hide();
+		  });
+		}
+
 	}); // End doc ready
 
 	$(window).load(function(){
@@ -81,5 +104,6 @@ jQuery( function($) {
 		});
 		
 	}); // End on window load
+
 	
 });
