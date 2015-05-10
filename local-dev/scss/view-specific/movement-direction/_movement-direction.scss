@@ -4,21 +4,32 @@ $html-name-space:'body.page-id-666';
 
   #{$page-content} {
 
-    .col-9,
-    .col-3 {
-      float:none;
-      padding:0;
-      @media (min-width:$bp-medium){
-        float:left;
+    .main-intro {
+
+      .col-8,
+      .col-4 {
+        float:none;
+        padding:0;
+        width:100%;
+        @media (min-width:$bp-medium){
+          float:left;
+        }
       }
-    }
-    @media (min-width:$bp-medium){
-      .col-9 {
-        padding-right:0;
+      .col-8 {
+        @media (min-width:$bp-medium){
+          padding-right:0;
+          width:$col-8-w;
+        }
       }
-      .col-3 {
-        padding-right:30px;
+      .col-4 {
+        display:none;
+        @media (min-width:$bp-medium){
+          display:block;
+          width:$col-4-w;
+          padding-left:30px;
+        }
       }
+
     }
 
   }
