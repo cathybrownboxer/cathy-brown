@@ -2,18 +2,70 @@ $html-name-space:'body.page-id-488';
 
 #{$html-name-space} {
 
-  .parent-page-links-grid {
-    .col-3,
-    .col-4 {
-      max-height:100%;
+  .page-title {
+    display:none;
+  }
+
+  #{$left-container} {
+    background:none;
+  }
+
+  .row.intro-imgs {
+    text-align:center;
+    margin-bottom:$spacing-main-cont;
+    a {
+      display:block;
+      @media (min-width:$bp-small) {
+        display:inline-block;
+        vertical-align:top;
+        &:first-child {
+          margin-right:$spacing-main-cont
+        }
+      }
+    }
+  }
+
+  .row.refuge,
+  .row.mental-health-foundation {
+    padding:$side-spacing-mobile;
+    ul {
+      padding-left:$side-spacing-mobile;
+      margin-bottom:$spacing-main-cont;
+    }
+    li {
+      list-style-type:disc;
+      font-weight:bold;
+    }
+    p.cancel-margin,
+    ul.cancel-margin {
       margin-bottom:0;
-      img {
-        margin-bottom:0;
+    }
+    .btn {
+      float:left;
+      clear:both;
+      @media (min-width:$bp-x-small) {
+        width:auto;
+      }
+    }
+  }
+
+  .row.refuge {
+    background:$pink-1;
+    color:$black-1;
+    margin-bottom:$side-spacing-mobile;
+  }
+
+  .row.mental-health-foundation {
+    background:$grey-dark-2;
+    color:$white-full;
+    .btn {
+      margin-top:$side-spacing-mobile;
+    }
+    .sub-content-mental-health-foundation {
+      ul:first-child {
+        margin-top:$side-spacing-mobile;
       }
     }
   }
 
 }
-
-@import '_refuge';
-@import '_mental-health-foundation';
