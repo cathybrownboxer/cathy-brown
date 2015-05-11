@@ -61,21 +61,38 @@ $html-name-space:'body.home';
   .home-videos {
     margin-top:10px;
     > div {
+      float:none;
+      width:100%;
       margin-bottom:$spacing-main-cont;
-      @media (min-width:$bp-small) {
+      @media (min-width:$bp-medium) {
         margin-bottom:0;
-        &:first-child {
-          padding-right:$side-spacing-mobile;
+        float:left;
+        width:$col-6-w;
+      }
+      &:first-child {
+        @media (min-width:$bp-medium) {
+          padding-right:$spacing-main-cont;
         }
-        &:last-child {
-          padding-left:$side-spacing-mobile;
+      }
+      .inner {
+        background:$black-full;
+        padding-top:10px;
+        @media (min-width:$bp-medium) {
+          padding:10px;
         }
       }
       p {
         text-align:center;
-        margin-bottom:5px;
+        margin-bottom:10px;
+        padding:0 $spacing-main-cont;
         &:last-child {
           margin-bottom:0;
+        }
+        @media (min-width:$bp-medium) {
+          padding:{
+            right:0;
+            left:0;
+          }
         }
       }
     }
