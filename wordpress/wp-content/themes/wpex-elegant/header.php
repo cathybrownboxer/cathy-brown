@@ -33,6 +33,7 @@
   <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicon-16x16.png" sizes="16x16" />
   <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicon-128x128.png" sizes="128x128" />
   <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body <?php body_class(); ?>>
