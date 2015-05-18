@@ -1,7 +1,7 @@
 @import '_base';
 
 .video-iframe-grid {
-  .row .col-4 {
+  .row > div {
     padding:{
       top:0;
       right:$side-spacing-mobile / 2;
