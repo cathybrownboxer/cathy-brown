@@ -7,16 +7,19 @@
     display:inline-block;
     text-decoration:none;
   }
-  h3 a {
-    color:$grey-light-3;
-    padding-bottom:10px;
-    &:hover,
-    &:focus {
-      color:$yellow-1;
+  h3 {
+    text-transform:uppercase;
+    a {
+      color:$grey-light-3;
+      padding-bottom:10px;
+      &:hover,
+      &:focus {
+        color:$yellow-1;
+      }
     }
   }
-  
   li {
+    text-transform:uppercase;
 
     //hide 'page home' links from RH menu (header only)
     &.page-item-828, //boxing home
