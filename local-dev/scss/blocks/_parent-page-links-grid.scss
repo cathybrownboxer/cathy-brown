@@ -75,12 +75,13 @@
       left:0;
       margin:auto;
       line-height:200px;
-      padding:0 0 0 7.5px;
+      padding:0 7.5px;
       color:$grey-light-4;
       font:{
         family:'Droid Sans';
         size:20px;
       }
+      box-shadow:inset 0 0 42px $black-full;
       p {
         text-shadow:0 3px 2px $black-full;
       }
