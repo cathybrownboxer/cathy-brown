@@ -26,3 +26,11 @@
   background:$yellow-1;
   color:$black-full;
 }
+
+@mixin right-container-videos-alignment {
+  #{$right-container} {
+    @media (min-width:$bp-medium) {
+      padding-top:50px;
+    }
+  }
+}

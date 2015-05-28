@@ -1,6 +1,9 @@
 $html-name-space:'body.page-id-674';
 
 #{$html-name-space} {
+
+  @include right-container-videos-alignment;
+
   #{$left-container} {
     padding:0;
     background:none;
