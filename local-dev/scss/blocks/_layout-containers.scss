@@ -44,7 +44,7 @@ body {
     background:$black-full;
     margin-bottom:$spacing-main-cont;
     @media (min-width:$bp-medium) {
-      width:70%;
+      width:75%;
       margin-bottom:0;
     }
     blockquote:last-child {
@@ -55,7 +55,7 @@ body {
     clear:both;
     width:100%;
     @media (min-width:$bp-medium) {
-      width:30%;
+      width:25%;
       clear:none;
       padding-left:$spacing-main-cont + 15px;
     }
