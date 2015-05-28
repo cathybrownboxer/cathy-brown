@@ -1,8 +1,24 @@
 @import '_base';
 
 #{$header-wrap} {
-  background:$black-full;
   margin-bottom:$spacing-main-cont;
+  background:$black-full;
+
+  @media (min-width:$bp-large) {
+    background:$black-full;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, $black-full),
+      color-stop(1, #292929)
+    );
+    background-image: -o-linear-gradient(bottom, $black-full 0%, #292929 100%);
+    background-image: -moz-linear-gradient(bottom, $black-full 0%, #292929 100%);
+    background-image: -webkit-linear-gradient(bottom, $black-full 0%, #292929 100%);
+    background-image: -ms-linear-gradient(bottom, $black-full 0%, #292929 100%);
+    background-image: linear-gradient(to bottom, $black-full 0%, #292929 100%);
+  }
 }
 
 #{$header} {
