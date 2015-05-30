@@ -2,7 +2,7 @@ $html-name-space:'body.page-id-464, body.page-id-676, body.page-id-682';
 
 #{$html-name-space} {
 
-  .row {
+  #{$left-container} .row {
     margin-bottom:$spacing-main-cont;
     text-align:center;
     background:$black-full;
@@ -71,13 +71,37 @@ $html-name-space:'body.page-id-464, body.page-id-676, body.page-id-682';
     }
     p {
       margin-bottom:10px;
-      strong {
-        color:$grey-light-3;
+    }
+    &:nth-child(odd) {
+      p {
+        color:#7B7B7B;
+        strong {
+          color:$grey-light-3;
+        }
+        &:last-child {
+          strong {
+            color:$grey-light-2;
+          }
+        }
       }
-      &:last-child {
+      h4 {
+        color:#7B7B7B;
+      }
+    }
+    &:nth-child(even) {
+      p {
+        color:$grey-light-1;
         strong {
           color:$grey-light-2;
         }
+        &:last-child {
+          strong {
+            color:$grey-light-3;
+          }
+        }
+      }
+      h4 {
+        color:$grey-light-1;
       }
     }
   }
