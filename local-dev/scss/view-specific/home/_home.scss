@@ -4,8 +4,69 @@ $html-name-space:'body.home';
 #{$html-name-space} {
 
   .home-intro,
-  .home-small-banner {
+  .home-small-banner,
+  .home-grid-nav,
+  .home-videos,
+  .home-3-banners {
     margin-bottom:$spacing-main-cont;
+  }
+
+  .home-intro {
+    background:$black-full;
+    padding-bottom:$spacing-main-cont;
+    @media (min-width:$bp-medium) {
+      padding:$spacing-main-cont;
+    }
+    br {
+      display:none;
+      @media (min-width:$bp-large + 50px) {
+        display:block;
+      }
+    }
+    img {
+      + br {
+        display:none; //failsafe for wordpress
+      }
+      margin:0 auto $spacing-main-cont auto;
+      @media (min-width:$bp-medium) {
+        float:right;
+        margin:0;
+        max-width:300px;
+        margin:{
+          top:0;
+          right:0;
+          bottom:$spacing-main-cont;
+          left:$spacing-main-cont;
+        }
+      }
+    }
+    h2 {
+      padding:{
+        right:$spacing-main-cont;
+        left:$spacing-main-cont;
+      }
+      @media (min-width:$bp-medium) {
+        padding:{
+          right:0;
+          left:0;
+        }
+      }
+    }
+    p {
+      padding:{
+        right:$spacing-main-cont;
+        left:$spacing-main-cont;
+      }
+      @media (min-width:$bp-medium) {
+        padding:{
+          right:0;
+          left:0;
+        }
+      }
+      &:last-child {
+        margin-bottom:0;
+      }
+    }
   }
 
   .home-grid-nav {
@@ -17,6 +78,7 @@ $html-name-space:'body.home';
       overflow:hidden;
       text-align:center;
       font-weight:bold;
+      background:$black-full;
       a {
         display:block;
         text-decoration:none;
@@ -31,18 +93,6 @@ $html-name-space:'body.home';
       @media (min-width:$bp-small) {
         max-height:150px;
       }
-      @media (min-width:$bp-medium) {
-        //padding:$side-spacing-mobile / 2;
-        width:$col-6-w;
-        &:hover,
-        &:focus {
-          transition:all 0.2s ease;
-          img {
-            opacity:0.5;
-          }
-        }
-      }
-
 
       .title {
         position:absolute;
@@ -57,6 +107,7 @@ $html-name-space:'body.home';
         line-height:200px;
         padding:0 7.5px;
         color:$grey-light-4;
+        opacity:0.7;
         font:{
           family:'Droid Sans';
           size:20px;
@@ -66,6 +117,21 @@ $html-name-space:'body.home';
         }
         @media (min-width:$bp-small) {
           line-height:150px;
+        }
+      }
+
+      @media (min-width:$bp-medium) {
+        //padding:$side-spacing-mobile / 2;
+        width:$col-6-w;
+        &:hover,
+        &:focus {
+          transition:all 0.2s ease;
+          img {
+            opacity:0.5;
+          }
+          .title {
+            opacity:1;
+          }
         }
       }
 
@@ -110,7 +176,7 @@ $html-name-space:'body.home';
         max-width:60%;
         padding-top:5px;
         text-align:center;
-        font-size:0.950em;
+        font-size:0.9em;
       }
     }
     .col-2:last-child {
@@ -190,6 +256,14 @@ $html-name-space:'body.home';
         }
       }
 
+    }
+  }
+
+  .home-founder-notice {
+    text-align:center;
+    p {
+      color:#626262;
+      font-size:13px;
     }
   }
 
