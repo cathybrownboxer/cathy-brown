@@ -76,7 +76,7 @@ $html-name-space:'body.home';
 
     .row .col-6 {
       position:relative;
-      max-height:178px;
+      max-height:146px;
       overflow:hidden;
       text-align:center;
       font-weight:bold;
@@ -88,12 +88,21 @@ $html-name-space:'body.home';
         color:$white-full;
       }
       img {
-        opacity:0.3;
+        opacity:0.2;
         width:100%;
+        @media (min-width:$bp-medium) {
+          opacity:0.3;
+        }
       }
 
       @media (min-width:$bp-small) {
-        max-height:150px;
+        max-height:113px;
+      }
+      @media (min-width:$bp-large) {
+        max-height:163px;
+      }
+      @media (min-width:$bp-large + 80px) {
+        max-height:176px;
       }
 
       .title {
@@ -106,7 +115,7 @@ $html-name-space:'body.home';
         bottom:0;
         left:0;
         margin:auto;
-        line-height:200px;
+        line-height:146px;
         padding:0 7.5px;
         color:$grey-light-4;
         opacity:0.7;
@@ -118,7 +127,13 @@ $html-name-space:'body.home';
           text-shadow:0 3px 2px $black-full;
         }
         @media (min-width:$bp-small) {
-          line-height:150px;
+          line-height:113px;
+        }
+        @media (min-width:$bp-large) {
+          line-height:163px;
+        }
+        @media (min-width:$bp-large + 80px) {
+          line-height:176px;
         }
       }
 
