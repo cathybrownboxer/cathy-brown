@@ -139,6 +139,36 @@ $html-name-space:'body.home';
 
   }
 
+  .home-videos {
+    .col-6 {
+      text-align:center;
+      &:first-child {
+        padding-right:$spacing-main-cont;
+      }
+      &:last-child {
+        padding-left:$spacing-main-cont;
+      }
+      .inner {
+        background:$black-full;
+        padding:$spacing-main-cont;
+      }
+    }
+    a {
+      display:block;
+      text-decoration:none;
+      color:$white-full;
+    }
+    p {
+      margin-bottom:0;
+    }
+    img {
+      margin-top:$spacing-main-cont;
+    }
+    br {
+      display:none; //failsafe for wordpresss
+    }
+  }
+
   .home-small-banner {
     padding:$spacing-main-cont;
     background:$black-full;
