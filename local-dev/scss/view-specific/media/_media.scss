@@ -12,6 +12,26 @@ $html-name-space:'body.page-id-2';
 
   }
 
+  .press-clippings {
+    display:none;
+    @media (min-width:$bp-small) {
+      display:inline-block;
+      vertical-align:top;
+      width:100%;
+      opacity:0.6;
+      margin:{
+        top:$spacing-main-cont;
+        bottom:0;
+      }
+    }
+    @media (min-width:$bp-medium) {
+      transition:all 0.2s ease;
+      &:hover {
+        opacity:1;
+      }
+    }
+  }
+
 }
 
 @import '_cathys-articles';
