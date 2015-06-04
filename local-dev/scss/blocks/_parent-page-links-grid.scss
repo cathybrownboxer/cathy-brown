@@ -89,5 +89,21 @@
         line-height:150px;
       }
     }
+
+    &.secondary-line {
+      .title {
+        line-height:29px;
+        padding:{
+          top:72px;
+          bottom:72px;
+        }
+        @media (min-width:$bp-small) {
+          padding:{
+            top:47px;
+            bottom:47px;
+          }
+        }
+      }
+    }
   }
 }
