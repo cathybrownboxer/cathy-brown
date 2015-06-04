@@ -18,15 +18,13 @@
       }
     }
   }
+  ul {
+
+    padding-left:$side-spacing-mobile;
+  }
   li {
     text-transform:uppercase;
-
-    &::before {
-      content:'-';
-      display:inline-block;
-      vertical-align:baseline;
-      padding-right:10px;
-    }
+    list-style-type:disc;
 
     //hide 'page home' links from RH menu (header only)
     &.page-item-828, //boxing home

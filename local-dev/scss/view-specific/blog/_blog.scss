@@ -34,12 +34,7 @@
       margin-bottom:5px;
     }
     ul {
-      margin-left:20px;
-      @media (min-width:$bp-medium) {
-        margin-left:15px;
-      }
       li {
-        list-style-type:disc;
         padding:5px 0;
       }
       a {
