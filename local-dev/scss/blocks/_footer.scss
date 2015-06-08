@@ -16,6 +16,7 @@
   }
   .social-icons {
     display:block;
+    max-width:130px;
     padding:{
       top:10px;
       bottom:30px;
@@ -39,7 +40,7 @@
   max-width:340px;
   @media (min-width:$bp-small) {
     width:80%;
-    max-width:500px;
+    max-width:540px;
   }
   @media (min-width:$bp-medium) {
     width:60%;
@@ -56,24 +57,35 @@
   }
   li {
     float:left;
-    width:50%;
+    width:44%;
     margin:{
       right:0;
       bottom:14px;
+      left:15px;
     }
+    color:#4E4E4E;
+    list-style-type:disc;
+    font-size:13px;
     @media (min-width:$bp-small) {
-      width:115px;
+      font-size:14px;
+      list-style-type:none;
+      width:145px;
       margin:{
         right:20px;
         bottom:8px;
+        left:0;
       }
+    }
+    @media (min-width:$bp-medium) {
+      width:125px;
     }
     &:nth-child(1),
     &:nth-child(4),
     &:nth-child(7),
     &:nth-child(10) {
       @media (min-width:$bp-small) {
-        width:95px;
+        clear:both;
+        width:85px;
       }
     }
     &:nth-child(2),
@@ -81,13 +93,16 @@
     &:nth-child(8),
     &:nth-child(11) {
       @media (min-width:$bp-small) {
-        width:160px;
+        width:145px;
       }
     }
     a {
-      text-decoration:none;
+      text-decoration:underline;
       color:$grey-light-2;
       font-weight:bold;
+      @media (min-width:$bp-small) {
+        text-decoration:none;
+      }
     }
   }
 }
