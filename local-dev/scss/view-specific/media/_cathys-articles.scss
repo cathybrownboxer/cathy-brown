@@ -4,6 +4,10 @@ $child-pages:'.page-id-68,.page-id-66,.page-id-64,.page-id-50,.page-id-58,.page-
 
 #{$html-name-space} {
 
+  .page-content {
+    @include left-container-full-width-revert;
+  }
+
   .article-grid a {
     @media (min-width:$bp-x-small) {
       max-height:150px;
@@ -23,8 +27,16 @@ $child-pages:'.page-id-68,.page-id-66,.page-id-64,.page-id-50,.page-id-58,.page-
   }
 
   #{$right-container} {
-    .menu + .menu li.page_item_has_children {
-      display:none;
+    .menu {
+      &:first-child {
+        display:none;
+      }
+      + .menu {
+        margin-top:0;
+        li.page_item_has_children {
+          display:none;
+        }
+      }
     }
   }
 }

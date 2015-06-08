@@ -7,6 +7,17 @@
   }
 }
 
+@mixin left-container-full-width-revert {
+  #{$left-container} {
+    @media (min-width:$bp-medium) {
+      width:75%;
+    }
+  }
+  #{$right-container} {
+    display:block;
+  }
+}
+
 @mixin input-placeholder {
   &::-webkit-input-placeholder {
     @content;
