@@ -13,6 +13,8 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
 	<title><?php wp_title( '-', true, 'right' ); ?><?php bloginfo('name'); ?></title>
+  <meta name="keywords" content="Cathy Brown Boxer, cathy brown boxing, women's boxing, female boxing, female boxer" />
+  <meta name="description" content="Personal Training, Strength and Conditioning, Boxing, Sports Psychology, Sports Therapy, Sports Performance Coach, Female Strength Coach, Female Professional Boxing Coach" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!--[if lt IE 9]>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
