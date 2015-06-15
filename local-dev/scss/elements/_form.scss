@@ -21,6 +21,10 @@ textarea {
   }
 }
 
+textarea {
+  overflow:auto;
+}
+
 input[type="submit"] {
   cursor:pointer;
   padding:12px 13px;
