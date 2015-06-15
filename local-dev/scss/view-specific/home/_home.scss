@@ -82,11 +82,14 @@ $html-name-space:'body.home';
 
     .row .col-6 {
       position:relative;
-      max-height:146px;
+      max-height:122px;
       overflow:hidden;
       text-align:center;
       font-weight:bold;
       background:$black-full;
+      @media (min-width:$bp-x-small) {
+        max-height:146px;
+      }
       a {
         display:block;
         text-decoration:none;
@@ -121,13 +124,16 @@ $html-name-space:'body.home';
         bottom:0;
         left:0;
         margin:auto;
-        line-height:146px;
+        line-height:122px;
         padding:0 7.5px;
         color:$grey-light-4;
         opacity:0.7;
         font:{
           family:'Droid Sans';
           size:20px;
+        }
+        @media (min-width:$bp-x-small) {
+          line-height:146px;
         }
         p {
           text-shadow:0 3px 2px $black-full;
@@ -176,6 +182,12 @@ $html-name-space:'body.home';
       .inner {
         background:$black-full;
         padding:$spacing-main-cont;
+      }
+      &:first-child .inner {
+        padding-top:$spacing-main-cont * 2;
+        @media (min-width:$bp-small) {
+          padding-top:$spacing-main-cont;
+        }
       }
     }
     a {
@@ -228,6 +240,7 @@ $html-name-space:'body.home';
       margin:0 auto;
       text-align:center;
       float:none;
+      font-size:0.850em;
       @media (min-width:$bp-x-small) {
         max-width:350px;
       }

@@ -32,6 +32,11 @@ $html-name-space:'body.page-id-666';
 
     }
 
+    blockquote:last-child {
+      float:left; //failsafe
+      margin-top:$spacing-main-cont - 5px;
+    }
+
   }
 }
 

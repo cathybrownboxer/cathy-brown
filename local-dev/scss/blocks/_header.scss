@@ -77,7 +77,7 @@
   strong {
     color:$grey-light-1;
   }
-  @media (min-width:$bp-large) {
+  @media (min-width:$bp-large + 30px) {
     display:block;
     float:left;
     font-size:13px;

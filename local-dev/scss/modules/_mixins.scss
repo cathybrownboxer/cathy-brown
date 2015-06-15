@@ -38,7 +38,18 @@
   color:$black-full;
 }
 
-@mixin right-container-videos-alignment {
+@mixin videos-alignment {
+  #{$left-container} {
+  .page-title {
+      padding:0 $spacing-main-cont;
+      @media (min-width:$bp-medium) {
+        padding:{
+          right:0;
+          left:0;
+        }
+      }
+    }
+  }
   #{$right-container} {
     @media (min-width:$bp-medium) {
       padding-top:50px;
