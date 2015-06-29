@@ -1,6 +1,6 @@
 #cathy-brown
 
-Wordpress site utilising a customisted version of the [wpex-elegant] (http://wpexplorer-demos.com/elegant/) theme.
+Wordpress site utilising a customised version of the [wpex-elegant] (http://wpexplorer-demos.com/elegant/) theme.
 
 
 ###Directory structure
