@@ -1,4 +1,5 @@
-#cathybrown-v2
+#cathy-brown
+
 Wordpress site utilising a customisted version of the [wpex-elegant] (http://wpexplorer-demos.com/elegant/) theme.
 
 
