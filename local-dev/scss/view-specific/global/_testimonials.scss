@@ -2,6 +2,29 @@ $html-name-space:'body.page-id-464, body.page-id-676, body.page-id-682, body.pag
 
 #{$html-name-space} {
 
+  .page-title {
+    @media (min-width:$bp-medium) {
+      float:left;
+    }
+    + .btn-wrap {
+      margin-bottom:$spacing-main-cont;
+      @media (min-width:$bp-medium) {
+        float:right;
+        margin-bottom:0;
+      }
+      .btn {
+        display:inline-block;
+        vertical-align:top;
+        padding:5px;
+        margin-right:6px;
+        font-size:12px;
+        &:last-child {
+          margin-right:0;
+        }
+      }
+    }
+  }
+
   #{$left-container} .row {
     margin-bottom:$spacing-main-cont;
     text-align:center;
