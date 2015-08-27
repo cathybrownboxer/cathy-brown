@@ -1,4 +1,9 @@
 node_modules
+wordpress/flywheel-config
+wordpress/wp-admin
+wordpress/wp-config.php
+wordpress/wp-settings.php
+wordpress/wp-content/plugins
 wordpress/wp-content/themes/wpex-elegant/styles
 wordpress/wp-content/themes/wpex-elegant/styles/cathy-brown.css
 wordpress/wp-content/themes/wpex-elegant/styles/cathy-brown.min.css
