@@ -12,11 +12,11 @@
   },
   "homepage": "http://cathybrown.co.uk",
   "devDependencies": {
-    "gulp": "*",
-    "gulp-sass": "*",
+    "gulp": "^3.9.0",
     "gulp-concat": "*",
     "gulp-minify-css": "*",
     "gulp-rename": "*",
+    "gulp-sass": "^2.0.4",
     "gulp-watch": "*"
   }
 }
