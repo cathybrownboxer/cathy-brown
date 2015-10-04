@@ -242,12 +242,7 @@ body {
   margin: 0 auto; }
 
 .main-container {
-  margin-top: 55px;
-  /*
-  @media (min-width:$bp-small) {
-    margin-top:46px;
-  }
-  */ }
+  margin-top: 55px; }
   @media (min-width: 500px) {
     .main-container {
       margin-top: 65px; } }
@@ -2792,7 +2787,7 @@ body.page-id-55 .article-grid-3-col-titles .col-4 {
     display: block;
     width: 100%;
     background: #050505;
-    color: #FFD100;
+    color: #FFF;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
