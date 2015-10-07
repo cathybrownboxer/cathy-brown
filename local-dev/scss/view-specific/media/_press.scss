@@ -31,6 +31,7 @@ $html-name-space:'body.page-id-55';
         background:$black-full;
         color:$white-full;
         font-weight:bold;
+        font-size:13px;
         text-decoration:none;
         text-align:center;
         padding:2.5px 0;
@@ -39,6 +40,7 @@ $html-name-space:'body.page-id-55';
         background:rgba(5, 5, 5, 0.77);
         bottom:0;
         left:0;
+        text-transform:uppercase;
         @media (min-width:$bp-small) {
           max-width:227px;
         }

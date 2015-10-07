@@ -2789,6 +2789,7 @@ body.page-id-55 .article-grid-3-col-titles .col-4 {
     background: #050505;
     color: #FFF;
     font-weight: bold;
+    font-size: 13px;
     text-decoration: none;
     text-align: center;
     padding: 2.5px 0;
@@ -2796,7 +2797,8 @@ body.page-id-55 .article-grid-3-col-titles .col-4 {
     position: absolute;
     background: rgba(5, 5, 5, 0.77);
     bottom: 0;
-    left: 0; }
+    left: 0;
+    text-transform: uppercase; }
     @media (min-width: 600px) {
       body.page-id-55 .article-grid-3-col-titles .col-4 span.title {
         max-width: 227px; } }
