@@ -241,17 +241,17 @@ $html-name-space:'body.home';
       text-align:center;
       float:none;
       font-size:0.850em;
-      @media (min-width:$bp-x-small) {
-        max-width:350px;
-      }
+      // @media (min-width:$bp-x-small) {
+      //   max-width:350px;
+      // }
       @media (min-width:$bp-medium) {
         float:left;
-        width:$col-9-w;
-        max-width:$col-9-w;
-        text-align:left;
+        // width:$col-9-w;
+        // max-width:$col-9-w;
+        // text-align:left;
       }
       @media (min-width:$bp-large + 60px) {
-        max-width:60%;
+        // max-width:60%;
         padding-top:3px;
         text-align:center;
         font-size:0.9em;
@@ -329,7 +329,7 @@ $html-name-space:'body.home';
           display:block;
           padding-right:0;
           .inner {
-            padding:61px $side-spacing-mobile;
+            padding:33px $side-spacing-mobile 29px $side-spacing-mobile;
           }
         }
       }

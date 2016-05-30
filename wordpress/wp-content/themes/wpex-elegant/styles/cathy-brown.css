@@ -2121,18 +2121,11 @@ body.home .home-small-banner {
     text-align: center;
     float: none;
     font-size: 0.850em; }
-    @media (min-width: 500px) {
-      body.home .home-small-banner .col-8 {
-        max-width: 350px; } }
     @media (min-width: 768px) {
       body.home .home-small-banner .col-8 {
-        float: left;
-        width: 75%;
-        max-width: 75%;
-        text-align: left; } }
+        float: left; } }
     @media (min-width: 960px) {
       body.home .home-small-banner .col-8 {
-        max-width: 60%;
         padding-top: 3px;
         text-align: center;
         font-size: 0.9em; } }
@@ -2192,7 +2185,7 @@ body.home .home-3-banners .col-4 {
         display: block;
         padding-right: 0; }
         body.home .home-3-banners .col-4:last-child .inner {
-          padding: 61px 15px; } }
+          padding: 33px 15px 29px 15px; } }
 
 body.home .home-founder-notice {
   text-align: center; }
