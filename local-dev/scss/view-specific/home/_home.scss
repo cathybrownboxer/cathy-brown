@@ -324,9 +324,7 @@ $html-name-space:'body.home';
       }
 
       &:last-child {
-        display:none;
         @media (min-width:$bp-medium) {
-          display:block;
           padding-right:0;
         }
       }

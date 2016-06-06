@@ -2176,12 +2176,9 @@ body.home .home-3-banners .col-4 {
   @media (min-width: 768px) {
     body.home .home-3-banners .col-4:first-child {
       padding-left: 0; } }
-  body.home .home-3-banners .col-4:last-child {
-    display: none; }
-    @media (min-width: 768px) {
-      body.home .home-3-banners .col-4:last-child {
-        display: block;
-        padding-right: 0; } }
+  @media (min-width: 768px) {
+    body.home .home-3-banners .col-4:last-child {
+      padding-right: 0; } }
 
 body.home .home-founder-notice {
   text-align: center; }
